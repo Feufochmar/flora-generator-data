@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="120"
+   height="120"
+   viewBox="0 0 31.75 31.75"
+   version="1.1"
+   id="svg12748"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   sodipodi:docname="14-Camelopardus.svg">
+  <defs
+     id="defs12742" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="44.497243"
+     inkscape:cy="52.096449"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1049"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata12745">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-265.25)">
+    <path
+       style="display:inline;fill:none;stroke:#100000;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1.2666734,272.35666 c 0,0 2.6337799,-4.8725 6.4527531,-4.74082 3.8189865,0.1317 4.3573705,7.06474 3.9506835,8.69149 -0.406687,1.62674 -8.4939502,18.21716 -8.4939502,18.21716 m 0,0 c 0,0 8.4261782,-17.62263 11.7861752,-20.98263 3.359997,-3.35999 9.263676,-3.41527 10.337588,0.5926 1.073898,4.00786 -5.231047,20.39003 -4.016519,20.39003 1.214529,0 9.284079,0 9.284079,0"
+       id="path5040"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="czzcczzzc" />
+  </g>
+</svg>
