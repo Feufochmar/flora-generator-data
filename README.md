@@ -45,3 +45,16 @@ A `gender` object has the following fields:
   - `genitive-adjective` (`string`): the 3rd person genitive adjective corresponding to the gender
   - `reflexive-pronoun` (`string`): the 3rd person reflexive pronoun corresponding to the gender
   - `plural?` (`boolean`): indicate if verbs should be conjugated in plural when the subject pronoun is the subject of a sentence
+
+## sexes.json
+Contains the description of biological sexes. Used when generating ancestors or descendants.
+
+The root is a `list` of `sex` objects.
+
+A `sex` object has the following fields:
+  - `name` (`string`): the name of the sex
+  - `context` (`string`): a description indicating in which context to use that object.
+  - `mother?` (`boolean` or the `string` `"maybe"`): indicate if individuals of that sex are described as biological mother.
+  - `gender-distribution` (`distribution`: `gender`): indicate the default distribution used when generating `gender` for individuals of the given `sex`.
+
+A `distribution` of `gender` is described as a map object whose keys are the `name` of a given `gender` and associated values are `number` giving the corresponding weight in the distribution.
