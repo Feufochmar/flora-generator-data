@@ -19,6 +19,7 @@ A `month` object has the following fields:
   - `number` (`integer`): the numerical representation of the month in dates
   - `name` (`string`): the name of the month
   - `days` (`integer`): the number of days in the month
+  - `named-after` (`string`): the origin of the name
 
 A `sign` object has the following fields:
     - `name` (`string`): the name of the sign
