@@ -58,3 +58,21 @@ A `sex` object has the following fields:
   - `gender-distribution` (`distribution`: `gender`): indicate the default distribution used when generating `gender` for individuals of the given `sex`.
 
 A `distribution` of `gender` is described as a map object whose keys are the `name` of a given `gender` and associated values are `number` giving the corresponding weight in the distribution.
+
+## elements.json
+Contains the description of magical elements. Used for affinities.
+
+The root is an `object` containing the following fields:
+  - `none` (`element`): an element value used for a lack of elemental affinity
+  - `primary` (`list`: `element`): the list of primary elements
+  - `secondary` (`list`: `combined-element`): the list of secondary elements
+
+The `element` object has the following fields:
+  - `name` (`string`): the name of the element
+  - `affinity-description` (`string`): a string used to describe someone or something having an elemental affinity
+  - `related-nouns` (`list`: `string`): a list of nouns that can be used to convey the idea of the element
+  - `related-adjectives` (`list`: `string`): a list of adjectives that can be used to convey the idea of the element
+
+The `combined-element` object has the following fields:
+  - `components` (`list`: `string`): a list of primary elements that compose a combined element; each string correspond to the name of the primary element
+  - `result` (`element`): the resulting element of the combination

@@ -1,0 +1,177 @@
+{
+  "none": {
+    "name": "None",
+    "affinity-description": "no affinity",
+    "related-nouns": [],
+    "related-adjectives": []
+  },
+  "primary": [
+    {
+      "name": "Fire",
+      "affinity-description": "a Fire affinity",
+      "related-nouns": [],
+      "related-adjectives": []
+    },
+    {
+      "name": "Water",
+      "affinity-description": "a Water affinity",
+      "related-nouns": [],
+      "related-adjectives": []
+    },
+    {
+      "name": "Earth",
+      "affinity-description": "an Earth affinity",
+      "related-nouns": [],
+      "related-adjectives": []
+    }
+    {
+      "name": "Air",
+      "affinity-description": "an Air affinity",
+      "related-nouns": [],
+      "related-adjectives": []
+    },
+    {
+      "name": "Spirit",
+      "affinity-description": "a Spirit affinity",
+      "related-nouns": [],
+      "related-adjectives": []
+    }
+  ],
+  "secondary": [
+    {
+      "components": ["Fire", "Fire"],
+      "result": {
+        "name": "Plasma",
+        "affinity-description": "a Plasma affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Fire", "Water"],
+      "result": {
+        "name": "Acid",
+        "affinity-description": "an Acid affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Fire", "Earth"],
+      "result": {
+        "name": "Lava",
+        "affinity-description": "a Lava affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Fire", "Air"],
+      "result": {
+        "name": "Light",
+        "affinity-description": "a Light affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Fire", "Spirit"],
+      "result": {
+        "name": "Aura",
+        "affinity-description": "an Aura affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Water", "Water"],
+      "result": {
+        "name": "Ice",
+        "affinity-description": "an Ice affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Water", "Earth"],
+      "result": {
+        "name": "Clay",
+        "affinity-description": "a Clay affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Water", "Air"],
+      "result": {
+        "name": "Cloud",
+        "affinity-description": "a Cloud affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Water", "Spirit"],
+      "result": {
+        "name": "Poison",
+        "affinity-description": "a Poison affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Earth", "Earth"],
+      "result": {
+        "name": "Crystal",
+        "affinity-description": "a Crystal affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Earth", "Air"],
+      "result": {
+        "name": "Sand",
+        "affinity-description": "a Sand affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Earth", "Spirit"],
+      "result": {
+        "name": "Magnet",
+        "affinity-description": "a Magnet affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Air", "Air"],
+      "result": {
+        "name": "Storm",
+        "affinity-description": "a Storm affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Air", "Spirit"],
+      "result": {
+        "name": "Sound",
+        "affinity-description": "a Sound affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Spirit", "Spirit"],
+      "result": {
+        "name": "PSI",
+        "affinity-description": "a PSI affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    }
+  ]
+}
