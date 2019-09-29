@@ -1,0 +1,42 @@
+[
+  {
+    "name": "masculine",
+    "title": "Mister",
+    "title-abbreviation": "Mr",
+    "subject-pronoun": "he",
+    "object-pronoun": "him",
+    "genitive-adjective": "his",
+    "reflexive-pronoun": "himself",
+    "plural?": false
+  },
+  {
+    "name": "feminine",
+    "title": "Miss",
+    "title-abbreviation": "Ms",
+    "subject-pronoun": "she",
+    "object-pronoun": "her",
+    "genitive-adjective": "her",
+    "reflexive-pronoun": "herself",
+    "plural?": false
+  },
+  {
+    "name": "neutral-person",
+    "title": "Mixter",
+    "title-abbreviation": "Mx",
+    "subject-pronoun": "they",
+    "object-pronoun": "them",
+    "genitive-adjective": "their",
+    "reflexive-pronoun": "themselves",
+    "plural?": true
+  },
+  {
+    "name": "neutral-thing",
+    "title": "Thing",
+    "title-abbreviation": "Tg",
+    "subject-pronoun": "it",
+    "object-pronoun": "it",
+    "genitive-adjective": "its",
+    "reflexive-pronoun": "itself",
+    "plural?": false
+  },
+]
