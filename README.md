@@ -74,5 +74,13 @@ The `element` object has the following fields:
   - `related-adjectives` (`list`: `string`): a list of adjectives that can be used to convey the idea of the element
 
 The `combined-element` object has the following fields:
-  - `components` (`list`: `string`): a list of primary elements that compose a combined element; each string correspond to the name of the primary element
+  - `components` (`list`: `string`): a list of primary elements that compose a combined element; each string correspond to the name of a primary element
   - `result` (`element`): the resulting element of the combination
+
+## mottos.json
+Contains various mottos and a way to generate variations.
+
+The root is an `object` containing the following fields:
+  - `prefix` (`list`: `string`): a list of prefix for making variations of prefixable mottos.
+  - `prefixable` (`list`: `string`): a list of prefixable mottos.
+  - `unprefixable` (`list`: `string`): a list of unprefixable mottos.
