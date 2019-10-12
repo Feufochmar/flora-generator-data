@@ -1,0 +1,1312 @@
+{
+  "location-types": [
+    { "name": "universe", "preposition-in": "in", "preposition-near": "in" },
+    { "name": "world", "preposition-in": "in", "preposition-near": "in" },
+    { "name": "continent", "preposition-in": "in", "preposition-near": "in" },
+    { "name": "region", "preposition-in": "in", "preposition-near": "in" },
+    { "name": "district", "preposition-in": "in", "preposition-near": "in" },
+    { "name": "city", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "town", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "lake", "preposition-in": "along", "preposition-near": "near" },
+    { "name": "river", "preposition-in": "along", "preposition-near": "near" },
+    { "name": "seashore", "preposition-in": "along", "preposition-near": "near" },
+    { "name": "plain", "preposition-in": "on", "preposition-near": "near" },
+    { "name": "cave", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "hill", "preposition-in": "on", "preposition-near": "near" },
+    { "name": "swamp", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "wall", "preposition-in": "on", "preposition-near": "near" },
+    { "name": "forest", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "valley", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "ruins", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "island", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "grassland", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "village", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "mountain", "preposition-in": "on", "preposition-near": "near" },
+    { "name": "plateau", "preposition-in": "on", "preposition-near": "near" },
+    { "name": "sinkhole", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "oasis", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "somewhere", "preposition-in": "", "preposition-near": "" }
+  ],
+  "places": {
+    "name": "Floraverse",
+    "reference-link": "http://floraverse.com/",
+    "type": "universe",
+    "locations": [
+      {
+        "name": "Topside",
+        "type": "world",
+        "locations": [
+          {
+            "name": "Owel",
+            "type": "continent",
+            "reference-link": "http://floraverse.com/wiki/owel/",
+            "locations": [
+              {
+                "name": "Citrico Archipelago",
+                "reference-link": "http://floraverse.com/comic/flora/page/99-the-citrico-archipelago/",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Polaris Island",
+                    "type": "island",
+                    "locations": [
+                      {
+                        "name": "Polaris",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Aurora",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Darrow",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Toro",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Duke",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Reka",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Lake Aurora",
+                        "type": "lake"
+                      },
+                      {
+                        "name": "Lake Darrow",
+                        "type": "lake"
+                      },
+                      {
+                        "name": "Lake Toro",
+                        "type": "lake"
+                      },
+                      {
+                        "name": "Lake Duke",
+                        "type": "lake"
+                      },
+                      {
+                        "name": "Lake Reka",
+                        "type": "lake"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Citrico Island",
+                    "type": "island",
+                    "locations": [
+                      {
+                        "name": "Citrico",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Cutie",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Cara Cara",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Clement",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Ham",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Navel",
+                        "type": "town"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Musapeel Island",
+                    "type": "island",
+                    "locations": [
+                      {
+                        "name": "Musapeel",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Burr",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Manza",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Caven",
+                        "type": "town"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Cherran Island",
+                    "type": "island",
+                    "locations": [
+                      {
+                        "name": "Cherran",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Napoleon",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Ranier",
+                        "type": "town"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Stemm Island",
+                    "type": "island",
+                    "locations": [
+                      {
+                        "name": "Stemm",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Snow",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Snap",
+                        "type": "town"
+                      },
+                      {
+                        "name": "String",
+                        "type": "town"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Southwest Owel",
+                "reference-link": "http://floraverse.com/comic/references/172-southwest-owel-map/",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Mainland Citrico",
+                    "type": "region",
+                    "locations": [
+                      {
+                        "name": "Citrico Capital",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Zest",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Rind",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Pith",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Alua",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Nox",
+                        "type": "town"
+                      },
+                      {
+                        "name": "The Dropoff",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Miaoustok River",
+                        "type": "river"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Twin Luxuries",
+                    "type": "region",
+                    "locations": [
+                      {
+                        "name": "West Luxury",
+                        "type": "city"
+                      },
+                      {
+                        "name": "East Luxury",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Wishbone",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Luxury Cove",
+                        "type": "seashore"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Dewclaw Territories",
+                    "type": "region",
+                    "locations": [
+                      {
+                        "name": "Dewclaw",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Talon",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Haunch",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Catfiwh Crossing",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Catfish Lake",
+                        "type": "lake"
+                      },
+                      {
+                        "name": "Dewclaw Flats",
+                        "type": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Moggy Territories",
+                    "type": "region",
+                    "locations": [
+                      {
+                        "name": "Moggy",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Spur",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Whisker",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Moggy Mines",
+                        "type": "cave"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Peace & Quiet Territories",
+                    "type": "region",
+                    "locations": [
+                      {
+                        "name": "Peace",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Quiet",
+                        "type": "town"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Mew York Territories",
+                "reference-link": "http://floraverse.com/comic/references/547-mew-york-territories/",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Lakeside",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Port Innsmouth",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Lake Miaoustok",
+                        "type": "lake"
+                      },
+                      {
+                        "name": "Miaoustok River",
+                        "type": "river"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "West District",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Port Lemin",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Appleton",
+                        "type": "town"
+                      },
+                      {
+                        "name": "West York Harbor",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Ascot",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Tyria",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Miaoustok River",
+                        "type": "river"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "North District",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Port Poppy",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Glowbug",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Foxfire",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Miaoustok River",
+                        "type": "river"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Mew York Wildlife Reserve",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Mew York Reservoir",
+                        "type": "lake"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "The Terraces",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Peacock",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Suntrap",
+                        "type": "town"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Central District",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Mew York City",
+                        "type": "city"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Scrump",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Snitch",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Rustle",
+                        "type": "town"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Vandalroot District",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Catkin",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Hedgetown",
+                        "type": "town"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Althar Province",
+                "reference-link": "http://floraverse.com/comic/references/375-althar-province/",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Upper Althar",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Upper Althar",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Seif Straits",
+                        "type": "river"
+                      },
+                      {
+                        "name": "The Crystal Farms",
+                        "type": "village"
+                      },
+                      {
+                        "name": "Sere Valley",
+                        "type": "valley"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Delta Islands",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Althar",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Miaoustok River",
+                        "type": "river"
+                      },
+                      {
+                        "name": "Perish",
+                        "type": "village"
+                      },
+                      {
+                        "name": "Petal",
+                        "type": "town"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Lower Althar",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Lower Althar",
+                        "type": "city"
+                      },
+                      {
+                        "name": "The Pharms",
+                        "type": "grassland"
+                      },
+                      {
+                        "name": "The Hatchery",
+                        "type": "grassland"
+                      },
+                      {
+                        "name": "Flower",
+                        "type": "grassland"
+                      },
+                      {
+                        "name": "Paradise Fields",
+                        "type": "grassland"
+                      },
+                      {
+                        "name": "Trickle Lakes",
+                        "type": "lake"
+                      },
+                      {
+                        "name": "Fickle Lakes",
+                        "type": "lake"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Auroria Territories",
+                "reference-link": "http://floraverse.com/comic/references/550-auroria-territories/",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Auroria",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Cirrus Checkpoint A",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Cirrus Checkpoint B",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Cirrus Checkpoint C",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Coraldome",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Eelgrass",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Giddy",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Frostpaw",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Season",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Mush",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Rime",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Fossil Valley",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Auroria Desert",
+                    "type": "plain"
+                  },
+                  {
+                    "name": "Auroria Plains",
+                    "type": "plain"
+                  },
+                  {
+                    "name": "Auroria Forest",
+                    "type": "forest"
+                  },
+                  {
+                    "name": "Auroria Taiga",
+                    "type": "forest"
+                  },
+                  {
+                    "name": "Frosty Bay",
+                    "type": "seashore"
+                  }
+                ]
+              },
+              {
+                "name": "Kadath Territories",
+                "reference-link": "http://floraverse.com/comic/references/553-kadath-territories/",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Kadath",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Ariathens",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Sand Fresco",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Flamebridge",
+                    "type": "town"
+                  },
+                  {
+                    "name": "New Atlantis",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Limew",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Ria",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Brittle Woods",
+                    "type": "forest"
+                  },
+                  {
+                    "name": "Shifting Woods",
+                    "type": "forest"
+                  },
+                  {
+                    "name": "Amalgamate Grotto",
+                    "type": "cave"
+                  },
+                  {
+                    "name": "Frosty Bay",
+                    "type": "seashore"
+                  }
+                ]
+              },
+              {
+                "name": "Beheaded City",
+                "type": "city"
+              },
+              {
+                "name": "Ventose Flats",
+                "type": "plain"
+              },
+              {
+                "name": "N.E.W. Gnoll Nation",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Crunchbone",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Bonecrunch",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Bonecrush",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Gnolls's Knolls",
+                    "type": "hill"
+                  },
+                  {
+                    "name": "Three Gnoll Lake's",
+                    "type": "lake"
+                  }
+                ]
+              },
+              {
+                "name": "Aromia",
+                "type": "city"
+              },
+              {
+                "name": "Croon Fens Territories",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Croon Hamlets",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Marshtune Glades",
+                    "type": "swamp"
+                  },
+                  {
+                    "name": "Croon Fens",
+                    "type": "swamp"
+                  }
+                ]
+              },
+              {
+                "name": "Quarantine Border",
+                "type": "region",
+                "restricted?": true,
+                "locations": [
+                  {
+                    "name": "Kadath Outpost",
+                    "type": "town"
+                  },
+                  {
+                    "name": "The Quarantine",
+                    "type": "wall"
+                  }
+                ]
+              },
+              {
+                "name": "Nature's Folly",
+                "type": "region",
+                "restricted?": true,
+                "locations": [
+                  {
+                    "name": "Paranoia",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Neck-Deep Mire",
+                    "type": "swamp"
+                  },
+                  {
+                    "name": "Void Forest",
+                    "type": "forest"
+                  },
+                  {
+                    "name": "Beholder Gorge",
+                    "type": "valley"
+                  },
+                  {
+                    "name": "Ever Hopeful",
+                    "type": "ruins"
+                  },
+                  {
+                    "name": "Heaven's Keys",
+                    "type": "island"
+                  }
+                ]
+              },
+              {
+                "name": "Gloam Territories",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Gloam",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Neon Lake",
+                    "type": "lake"
+                  },
+                  {
+                    "name": "Fulgid Forest",
+                    "type": "forest"
+                  }
+                ]
+              },
+              {
+                "name": "Miaoustok Territories",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Miaoustok",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Lake Miaoustok",
+                    "type": "lake"
+                  },
+                  {
+                    "name": "Prospector",
+                    "type": "town"
+                  }
+                ]
+              },
+              {
+                "name": "Stony Barrens",
+                "type": "plain"
+              },
+              {
+                "name": "Peril Territories",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Peril",
+                    "type": "forest"
+                  },
+                  {
+                    "name": "Good Intentions",
+                    "type": "village"
+                  }
+                ]
+              },
+              {
+                "name": "Heart Mountain",
+                "type": "mountain"
+              },
+              {
+                "name": "Carrot Crook",
+                "type": "seashore"
+              },
+              {
+                "name": "Candy Rock Territories",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Candy Rock",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Candy Lake",
+                    "type": "lake"
+                  },
+                  {
+                    "name": "Candy Mesa",
+                    "type": "plateau"
+                  }
+                ]
+              },
+              {
+                "name": "Teslic Yard",
+                "type": "plateau"
+              },
+              {
+                "name": "Gnawth Territories",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Gnawth",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Miaoustok River",
+                    "type": "river"
+                  }
+                ]
+              },
+              {
+                "name": "National Port of Owel Territories",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "National Port of Owel",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Miaoustok River",
+                    "type": "river"
+                  }
+                ]
+              },
+              {
+                "name": "Treefall Territories",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Treefall",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Treefall Lake",
+                    "type": "lake"
+                  },
+                  {
+                    "name": "Treefall Greens",
+                    "type": "forest"
+                  }
+                ]
+              },
+              {
+                "name": "Deep Plateau",
+                "type": "sinkhole"
+              },
+              {
+                "name": "Deep Mountain",
+                "type": "sinkhole",
+                "restricted?": true
+              },
+              {
+                "name": "Holiday Territories",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Holiday",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Holiday Marsh",
+                    "type": "swamp"
+                  }
+                ]
+              },
+              {
+                "name": "Honeycomb Plateau",
+                "type": "plateau"
+              },
+              {
+                "name": "Dendain Territories",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Dendain",
+                    "type": "plateau"
+                  },
+                  {
+                    "name": "Sandsong Oasis",
+                    "type": "oasis"
+                  }
+                ]
+              },
+              {
+                "name": "Olive Hills",
+                "type": "hill"
+              },
+              {
+                "name": "Mossy Depression",
+                "type": "swamp"
+              }
+            ]
+          },
+          {
+            "name": "Eastar",
+            "type": "continent",
+            "restricted?": true
+          },
+          {
+            "name": "Glissod",
+            "type": "continent",
+            "restricted?": true
+          },
+          {
+            "name": "Jewell",
+            "type": "continent",
+            "restricted?": true
+          },
+          {
+            "name": "Cenastre",
+            "type": "continent",
+            "restricted?": true
+          }
+        ]
+      },
+      {
+        "name": "Hellside",
+        "type": "world",
+        "locations": [
+          {
+            "name": "Blackjack Isles",
+            "reference-link": "http://floraverse.com/comic/flora/page/296-the-blackjack-isles/",
+            "type": "region",
+            "locations": [
+              {
+                "name": "Trebol",
+                "type": "island",
+                "locations": [
+                  {
+                    "name": "Turnstile",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Vinyl",
+                        "type": "city"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Bluegrass",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Foxtrot",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Bluegrass Hills",
+                        "type": "hill"
+                      },
+                      {
+                        "name": "Bluegrass Mountains",
+                        "type": "mountain"
+                      },
+                      {
+                        "name": "Lake Simile",
+                        "type": "lake"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Ballero",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Sonata",
+                        "type": "city"
+                      },
+                      {
+                        "name": "A",
+                        "type": "town"
+                      },
+                      {
+                        "name": "B",
+                        "type": "town"
+                      },
+                      {
+                        "name": "C",
+                        "type": "town"
+                      },
+                      {
+                        "name": "D",
+                        "type": "town"
+                      },
+                      {
+                        "name": "E",
+                        "type": "town"
+                      },
+                      {
+                        "name": "F",
+                        "type": "town"
+                      },
+                      {
+                        "name": "G",
+                        "type": "town"
+                      },
+                      {
+                        "name": "R",
+                        "type": "town"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "R-Bop",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Fundango",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Slide",
+                        "type": "town"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Disco-Disco",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Galop",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Shufflebugg",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Skip",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Screaming Island",
+                        "type": "island"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Chance",
+                "type": "island",
+                "locations": [
+                  {
+                    "name": "Diamond Spiral",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Hindsight",
+                        "type": "city"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Pixel",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Rainbow",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Prism",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Tilt Acres",
+                        "type": "plain"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Penny",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Dime",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Nickel",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Buck Woods",
+                        "type": "forest"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Cardios",
+                "type": "island",
+                "locations": [
+                  {
+                    "name": "Cœur",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Cupid",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Rosiere",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Rosy Mounts",
+                        "type": "mountain"
+                      },
+                      {
+                        "name": "Wish River",
+                        "type": "river"
+                      },
+                      {
+                        "name": "Bone River",
+                        "type": "river"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Axon",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Coma",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Vaxine",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Rosy Mounts",
+                        "type": "mountain"
+                      },
+                      {
+                        "name": "Wish River",
+                        "type": "river"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Sacral",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Casette",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Shallow",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Rosy Mounts",
+                        "type": "mountain"
+                      },
+                      {
+                        "name": "Bone River",
+                        "type": "river"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Pike",
+                "type": "island",
+                "locations": [
+                  {
+                    "name": "Angel Tear Downstream",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Spoke",
+                        "type": "city"
+                      },
+                      {
+                        "name": "Circuit",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Angel Tear River",
+                        "type": "river"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Stokade",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "The Vault",
+                        "type": "town"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Battery",
+                    "type": "district",
+                    "locations": [
+                      {
+                        "name": "Terminal",
+                        "type": "town"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "God's Gate",
+                    "type": "district",
+                    "restricted?": true,
+                    "locations": [
+                      {
+                        "name": "The Citadel",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Bastion",
+                        "type": "town"
+                      },
+                      {
+                        "name": "Angel Tear River",
+                        "type": "river"
+                      },
+                      {
+                        "name": "Divine Mounts",
+                        "type": "mountain"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Nowhere",
+        "type": "somewhere",
+        "restricted?": true
+      }
+    ]
+  }
+}

@@ -84,3 +84,22 @@ The root is an `object` containing the following fields:
   - `prefix` (`list`: `string`): a list of prefix for making variations of prefixable mottos.
   - `prefixable` (`list`: `string`): a list of prefixable mottos.
   - `unprefixable` (`list`: `string`): a list of unprefixable mottos.
+
+## geography.json
+Contains the locations. Those are described in a tree structure with places containing other places.
+
+The root is an `object` containing the following fields:
+  - `location-types` (`list`: `location-type`): the list of location types
+  - `places` (`place`): the root location (the world)
+
+The `location-type` object contains the following fields:
+  - `name` (`string`): the name of location type
+  - `preposition-in` (`string`): the preposition to use when indicating something is inside a location of that type
+  - `preposition-near` (`string`): the preposition to use when indicating something is near a location of that type
+
+The `place` object contains the following fields:
+  - `name` (`string`): the name of the location
+  - `reference-link` (`string`, optional): an URL to the page when the location is described. If a location has no `reference-link`, it means that it is the same as the parent location.
+  - `type` (`string`): the name of a `location-type` indicating the type of the place
+  - `restricted?` (`boolean`, optional): if `true`, indicate a location (and its sub-locations) cannot be freely used in generated contents. Default to `false`.
+  - `locations` (`list`: `place`, optional): a list of places located inside the place. Empty by default.
