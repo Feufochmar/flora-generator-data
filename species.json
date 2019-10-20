@@ -20,7 +20,7 @@
     "wild?": false,
     "vegetal?": false,
     "mimic?": false,
-    "mimic-method": {"mimic?": false},
+    "mimic-method": {"species": {"mimic?": false}},
     "mimic-genes-used?": true,
     "varieties": []
   },
@@ -214,7 +214,7 @@
       "generable-as-character?": true,
       "citizen?": true,
       "mimic?": true,
-      "mimic-method": {"mimic?": false, "citizen?": true, "reproduction": "sexual"},
+      "mimic-method": {"species": {"mimic?": false, "citizen?": true, "reproduction": "sexual"}},
       "mimic-genes-used?": false
     },
     {
@@ -380,21 +380,21 @@
       "generable-as-character?": true,
       "citizen?": true,
       "mimic?": true,
-      "mimic-method": {"mimic?": false, "citizen?": true},
+      "mimic-method": {"species": {"mimic?": false, "citizen?": true}},
       "varieties": [
         {
           "name": "Wild Gelbeast",
           "generable-as-character?": false,
           "citizen?": false,
           "wild?": true,
-          "mimic-method": {"mimic?": false, "wild?": true}
+          "mimic-method": {"species": {"mimic?": false, "wild?": true}}
         },
         {
           "name": "Pet Gelbeast",
           "generable-as-character?": false,
           "citizen?": false,
           "pet?": true,
-          "mimic-method": {"mimic?": false, "pet?": true}
+          "mimic-method": {"species": {"mimic?": false, "pet?": true}}
         }
       ]
     },
@@ -505,7 +505,7 @@
         {
           "name": "Masked Owl Hybrid",
           "mimic?": true,
-          "mimic-method": {"mimic?": false, "citizen?": true, "name": {"not": ["Masked Owl"]}, "relationship": "foster-parent"}
+          "mimic-method": {"species": {"mimic?": false, "citizen?": true, "name": {"not": ["Masked Owl"]}}, "relationship": "foster-parent"}
         }
       ]
     },
@@ -541,7 +541,7 @@
       "generable-as-character?": true,
       "citizen?": true,
       "mimic?": true,
-      "mimic-method": {"mimic?": false, "citizen?": true}
+      "mimic-method": {"species": {"mimic?": false, "citizen?": true}}
     },
     {
       "name": "Scrapgoat",

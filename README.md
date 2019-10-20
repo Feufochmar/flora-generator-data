@@ -129,9 +129,13 @@ The `species` object contains the following fields:
   - `wild?` (`boolean`): if `true`, indicate that member of this species are usually considered as wild animals in civilized places.
   - `vegetal?` (`boolean`): if `true`, indicate a species whose members are unable to move on their own, like trees.
   - `mimic?` (`boolean`): if `true`, indicate the species physically mimics other species, and member of this species (the real species) must be instanciated with another associated species (the immited species). Members of this species usually physically look like members of the immited species, but with modifications from their real species.
-  - `mimic-method` (`object`): indicate the filter used for a mimic species to choose the assoicated species during instanciation.
+  - `mimic-method` (`mimic-filter`): indicate the filter used for a mimic species to choose the assoicated species during instanciation.
   - `mimic-genes-used?` (`boolean`): if `true`, indicate the genes used to compute the species use the real species. If `false`, the genes use the immited species.
   - `varieties` (`list`: `species`): a list of species based on this species. They used the values of this species as default values and can be considered as variations of a same species.
+
+The `mimic-filter` object contains the following fields:
+  - `species` (`species`): a filter on the species fields. The associated value may be the value to search or an object of the form `{"not": [...]}` to list the values to exclude.
+  - `relationship` (`string`, optional): a filter indicating a relationship between the character of the mimic species and another character from which the species is copied.
 
 ## crossbreed.csv
 A table indicating if species reproducing by sexual reproduction are compatible and the name of the crossbreed if there is one.
