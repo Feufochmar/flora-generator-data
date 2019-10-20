@@ -1,0 +1,1695 @@
+{
+  "defaults": {
+    "reference-link": "http://floraverse.com",
+    "endemic-in": ["Floraverse"],
+    "restricted-to-endemic-areas?": false,
+    "affinity": {
+      "None": 1,
+      "Fire": 1, "Water": 1, "Earth": 1, "Air": 1, "Spirit": 1,
+      "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+      "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
+      "Crystal": 1, "Sand": 1, "Magnet": 1,
+      "Storm": 1, "Sound": 1, "PSI": 1
+    },
+    "sex": {"male": 999, "female": 999, "intersex": 2},
+    "reproduction": "sexual",
+    "asexual-parent-species": [],
+    "generable-as-character?": false,
+    "citizen?": false,
+    "pet?": false,
+    "wild?": false,
+    "vegetal?": false,
+    "mimic?": false,
+    "mimic-method": {"mimic?": false},
+    "mimic-genes-used?": true,
+    "varieties": []
+  },
+  "species": [
+    {
+      "name": "Flowercat",
+      "reference-link": "http://floraverse.com/wiki/species/flowercat",
+      "endemic-in": ["Dewclaw Territories", "Moggy Territories"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 40, "Earth": 40, "Air": 40, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Foxbat",
+      "reference-link": "http://floraverse.com/wiki/species/foxbat",
+      "endemic-in": ["Owel"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 1, "Earth": 1, "Air": 1, "Spirit": 0,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 0,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 0,
+        "Crystal": 1, "Sand": 1, "Magnet": 0,
+        "Storm": 1, "Sound": 0, "PSI": 0
+      },
+      "pet?": true,
+      "wild?": true
+    },
+    {
+      "name": "Spiritual Foxbat",
+      "reference-link": "http://floraverse.com/wiki/species/foxbat",
+      "endemic-in": ["Owel"],
+      "affinity": {
+        "None": 0,
+        "Fire": 0, "Water": 0, "Earth": 0, "Air": 0, "Spirit": 1,
+        "Plasma": 0, "Acid": 0, "Lava": 0, "Light": 0, "Aura": 1,
+        "Ice": 0, "Clay": 0, "Cloud": 0, "Poison": 1,
+        "Crystal": 0, "Sand": 0, "Magnet": 1,
+        "Storm": 0, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Cockatrice",
+      "reference-link": "http://floraverse.com/wiki/species/cockatrice",
+      "endemic-in": ["Owel"],
+      "affinity": {
+        "None": 1,
+        "Fire": 30, "Water": 30, "Earth": 30, "Air": 1, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 30, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 30,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Vanguard",
+      "reference-link": "http://floraverse.com/comic/flora/page/194-vanguard-species/",
+      "endemic-in": ["Citrico Archipelago", "Mainland Citrico", "Twin Luxuries", "Dewclaw Territories", "Althar Province", "Miaoustok Territories", "Carrot Crook", "National Port of Owel Territories", "Treefall Territories", "Auroria Territories", "Kadath Territories", "Eastar", "Glissod", "Jewell", "Cenastre"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 50, "Earth": 1, "Air": 1, "Spirit": 1,
+        "Plasma": 1, "Acid": 10, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 30, "Clay": 1, "Cloud": 10, "Poison": 30,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 30, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Painted Alligator",
+      "reference-link": "http://floraverse.com/wiki/species/painted_alligator",
+      "endemic-in": ["Miaoustok Territories", "Althar Province", "National Port of Owel Territories", "Gnawth Territories"],
+      "affinity": {
+        "None": 1,
+        "Fire": 40, "Water": 1, "Earth": 40, "Air": 1, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 15, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
+        "Crystal": 15, "Sand": 40, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Rock Candies",
+      "reference-link": "http://floraverse.com/wiki/species/rock_candies",
+      "endemic-in": ["Candy Rock Territories", "Honeycomb Plateau", "Miaoustok Territories", "Beheaded City"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 1, "Earth": 40, "Air": 1, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 20, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 20, "Cloud": 1, "Poison": 1,
+        "Crystal": 25, "Sand": 20, "Magnet": 5,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Hanged Man",
+      "reference-link": "http://floraverse.com/wiki/species/hanged_man",
+      "endemic-in": ["Auroria Territories", "Kadath Territories", "National Port of Owel Territories", "Candy Rock Territories", "Althar Province", "Beheaded City", "Miaoustok Territories"],
+      "affinity": {
+        "None": 1,
+        "Fire": 40, "Water": 1, "Earth": 1, "Air": 40, "Spirit": 15,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Pygmy Pyzky",
+      "reference-link": "http://floraverse.com/wiki/species/pygmy_pyzky",
+      "endemic-in": ["Glissod", "N.E.W. Gnoll Nation", "Dewclaw Territories", "Citrico Archipelago", "Peril Territories", "Bluegrass"],
+      "affinity": {
+        "None": 1,
+        "Fire": 40, "Water": 40, "Earth": 40, "Air": 40, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "sex": {"female": 1},
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Manticore",
+      "reference-link": "http://floraverse.com/wiki/species/manticore",
+      "endemic-in": ["Dewclaw Territories", "Gnawth Territories"],
+      "affinity": {
+        "None": 1,
+        "Fire": 40, "Water": 40, "Earth": 40, "Air": 1, "Spirit": 1,
+        "Plasma": 1, "Acid": 15, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 15, "Clay": 1, "Cloud": 1, "Poison": 15,
+        "Crystal": 1, "Sand": 15, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Aurorian Fox",
+      "reference-link": "http://floraverse.com/wiki/species/aurorian_fox",
+      "endemic-in": ["Auroria Territories", "Althar Province", "Mew York Territories", "Mainland Citrico", "Twin Luxuries", "National Port of Owel Territories", "Kadath Territories"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 30, "Earth": 1, "Air": 30, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 30, "Clay": 1, "Cloud": 1, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 15, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Beholding Siren",
+      "reference-link": "http://floraverse.com/wiki/species/beholding_siren",
+      "endemic-in": ["Nature's Folly"],
+      "restricted-to-endemic-areas?": true,
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 1, "Earth": 1, "Air": 1, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 30,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 30
+      },
+      "generable-as-character?": true
+    },
+    {
+      "name": "Imp",
+      "reference-link": "http://floraverse.com/wiki/species/imp",
+      "endemic-in": ["Polaris Island", "Hellside"],
+      "sex": {"hermaphrodite": 1},
+      "generable-as-character?": true,
+      "citizen?": true,
+      "mimic?": true,
+      "mimic-method": {"mimic?": false, "citizen?": true, "reproduction": "sexual"},
+      "mimic-genes-used?": false
+    },
+    {
+      "name": "Satyr",
+      "reference-link": "http://floraverse.com/comic/flora/page/193-satyr-species/",
+      "endemic-in": ["Gnawth Territories", "Croon Fens Territories"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 40, "Earth": 40, "Air": 40, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 40, "Cloud": 40, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Goatixy",
+      "reference-link": "http://floraverse.com/comic/flora/page/193-satyr-species/",
+      "endemic-in": ["Gnawth Territories", "Croon Fens Territories"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 40, "Earth": 40, "Air": 40, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 40, "Cloud": 40, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Sea Dragon",
+      "reference-link": "http://floraverse.com/comic/flora/page/195-sea-dragon-species/",
+      "endemic-in": ["Citrico Archipelago", "Mainland Citrico", "Twin Luxuries", "Althar Province", "Carrot Crook", "National Port of Owel Territories", "Auroria Territories", "Kadath Territories", "Glissod"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 40, "Earth": 40, "Air": 1, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 15, "Clay": 15, "Cloud": 1, "Poison": 1,
+        "Crystal": 50, "Sand": 1, "Magnet": 1,
+        "Storm": 15, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Coralshell Turtle",
+      "reference-link": "http://floraverse.com/comic/flora/page/202-coralshell-turtle-species/",
+      "endemic-in": ["Citrico Archipelago", "Mainland Citrico", "Twin Luxuries", "Althar Province", "National Port of Owel Territories", "Auroria Territories", "Kadath Territories"],
+      "affinity": {
+        "None": 1,
+        "Fire": 10, "Water": 50, "Earth": 1, "Air": 40, "Spirit": 1,
+        "Plasma": 10, "Acid": 10, "Lava": 10, "Light": 10, "Aura": 10,
+        "Ice": 40, "Clay": 25, "Cloud": 1, "Poison": 1,
+        "Crystal": 25, "Sand": 25, "Magnet": 10,
+        "Storm": 40, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Frilled Petal Dragon",
+      "reference-link": "http://floraverse.com/comic/flora/page/203-frilled-petal-dragon-species/",
+      "endemic-in": ["Citrico Archipelago", "Dewclaw Territories", "Nature's Folly", "Heart Mountain", "Carrot Crook", "Dendain Territories"],
+      "affinity": {
+        "None": 1,
+        "Fire": 15, "Water": 15, "Earth": 15, "Air": 15, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 15, "Aura": 1,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true,
+      "wild?": true,
+      "varieties": [
+        {
+          "name": "Frilled Pigmy Dragon",
+          "endemic-in": ["Auroria Territories"],
+          "generable-as-character?": false,
+          "citizen?": false,
+          "pet?": true
+        },
+        {
+          "name": "Frilled Petal Dragosaur",
+          "endemic-in": ["Deep Mountain"],
+          "generable-as-character?": false,
+          "citizen?": false
+        },
+        {
+          "name": "Pomegragon"
+        },
+        {
+          "name": "Blueberrygon"
+        }
+      ]
+    },
+    {
+      "name": "Cagroo",
+      "reference-link": "http://floraverse.com/comic/flora/page/204-cagroo-species/",
+      "endemic-in": ["Owel", "Eastar"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 20, "Earth": 20, "Air": 1, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "pet?": true,
+      "wild?": true,
+      "varieties": [
+        {
+          "name": "Shagroo"
+        },
+        {
+          "name": "Cagrugong",
+          "affinity": {
+            "None": 1,
+            "Fire": 1, "Water": 40, "Earth": 1, "Air": 1, "Spirit": 1,
+            "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+            "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
+            "Crystal": 1, "Sand": 1, "Magnet": 1,
+            "Storm": 1, "Sound": 1, "PSI": 1
+          },
+          "wild?": false
+        },
+        {
+          "name": "Swagroo",
+          "wild?": false
+        },
+        {
+          "name": "Cotton Cagroodle",
+          "wild?": false
+        },
+        {
+          "name": "Bogroo",
+          "endemic-in": ["Croon Fens Territories"],
+          "restricted-to-endemic-areas?": true,
+          "pet?": false
+        },
+        {
+          "name": "Cagroodle",
+          "wild?": false
+        }
+      ]
+    },
+    {
+      "name": "Gelbeast",
+      "reference-link": "http://floraverse.com/comic/flora/page/202-coralshell-turtle-species/",
+      "endemic-in": ["Treefall Territories"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 50, "Earth": 1, "Air": 1, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "sex": {"hermaphrodite": 1},
+      "generable-as-character?": true,
+      "citizen?": true,
+      "mimic?": true,
+      "mimic-method": {"mimic?": false, "citizen?": true},
+      "varieties": [
+        {
+          "name": "Wild Gelbeast",
+          "generable-as-character?": false,
+          "citizen?": false,
+          "wild?": true,
+          "mimic-method": {"mimic?": false, "wild?": true}
+        },
+        {
+          "name": "Pet Gelbeast",
+          "generable-as-character?": false,
+          "citizen?": false,
+          "pet?": true,
+          "mimic-method": {"mimic?": false, "pet?": true}
+        }
+      ]
+    },
+    {
+      "name": "Weed Wolf",
+      "reference-link": "http://floraverse.com/comic/flora/page/220-species-weed-wolves/",
+      "endemic-in": ["Owel"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 1, "Earth": 30, "Air": 1, "Spirit": 0,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 0,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 0,
+        "Crystal": 1, "Sand": 1, "Magnet": 0,
+        "Storm": 1, "Sound": 0, "PSI": 0
+      },
+      "wild?": true,
+      "pet?": true,
+      "varieties": [
+        {
+          "name": "Maple Dog",
+          "pet?": false
+        },
+        {
+          "name": "Pin Bull",
+          "pet?": false
+        },
+        {
+          "name": "Palmeranian",
+          "wild?": false
+        },
+        {
+          "name": "Pine Hound",
+          "wild?": false
+        },
+        {
+          "name": "Shruppy",
+          "wild?": false
+        },
+        {
+          "name": "Weeping Woodle",
+          "wild?": false
+        }
+      ]
+    },
+    {
+      "name": "Flower Frog",
+      "reference-link": "http://floraverse.com/comic/flora/page/221-species-fruit-frog/",
+      "endemic-in": ["Citrico Archipelago", "N.E.W. Gnoll Nation"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 30, "Earth": 30, "Air": 1, "Spirit": 1,
+        "Plasma": 1, "Acid": 30, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "reproduction": "asexual",
+      "asexual-parent-species": ["Capricornucopia"],
+      "generable-as-character?": true,
+      "citizen?": true,
+      "varieties": [
+        {
+          "name": "Fruit Frog",
+          "sex": {"female": 1}
+        },
+        {
+          "name": "Capricornucopia",
+          "sex": {"female": 1},
+          "asexual-parent-species": ["Fruit Frog"],
+          "generable-as-character?": false,
+          "vegetal?": true
+        }
+      ]
+    },
+    {
+      "name": "Owel Treant",
+      "reference-link": "http://floraverse.com/comic/flora/page/222-species-owel-treants/",
+      "endemic-in": ["Owel"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 1, "Earth": 40, "Air": 1, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 40, "Cloud": 1, "Poison": 1,
+        "Crystal": 1, "Sand": 40, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Masked Owl",
+      "reference-link": "http://floraverse.com/comic/flora/page/306-species-masked-owls/",
+      "endemic-in": ["Owel"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 1, "Earth": 1, "Air": 1, "Spirit": 100,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 100,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 100,
+        "Crystal": 1, "Sand": 1, "Magnet": 100,
+        "Storm": 1, "Sound": 100, "PSI": 100
+      },
+      "sex": {"asexual": 1},
+      "reproduction": "asexual",
+      "asexual-parent-species": ["Masked Owl", "Masked Owl Hybrid"],
+      "generable-as-character?": true,
+      "citizen?": true,
+      "varieties": [
+        {
+          "name": "Masked Owl Hybrid",
+          "mimic?": true,
+          "mimic-method": {"mimic?": false, "citizen?": true, "name": {"not": ["Masked Owl"]}, "relationship": "foster-parent"}
+        }
+      ]
+    },
+    {
+      "name": "Singing Rabbat",
+      "reference-link": "http://floraverse.com/comic/flora/page/312-species-singing-rabbat/",
+      "endemic-in": ["Owel", "Eastar"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 1, "Earth": 1, "Air": 60, "Spirit": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 30, "Aura": 1,
+        "Ice": 1, "Clay": 1, "Cloud": 30, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 30, "Sound": 30, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Moahu",
+      "reference-link": "http://floraverse.com/comic/flora/page/318-species-moahu/",
+      "endemic-in": ["Holiday Territories"],
+      "affinity": {
+        "None": 1,
+        "Fire": 10, "Water": 10, "Earth": 500, "Air": 10, "Spirit": 10,
+        "Plasma": 1, "Acid": 1, "Lava": 100, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 100, "Cloud": 1, "Poison": 1,
+        "Crystal": 100, "Sand": 100, "Magnet": 100,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "sex": {"asexual": 1},
+      "reproduction": "artifact",
+      "generable-as-character?": true,
+      "citizen?": true,
+      "mimic?": true,
+      "mimic-method": {"mimic?": false, "citizen?": true}
+    },
+    {
+      "name": "Scrapgoat",
+      "reference-link": "http://floraverse.com/comic/references/329-species-scrapgoats/",
+      "endemic-in": ["Gloam Territories", "Teslic Yard"],
+      "affinity": {
+        "None": 100,
+        "Fire": 100, "Water": 100, "Earth": 100, "Air": 100, "Spirit": 1,
+        "Plasma": 100, "Acid": 100, "Lava": 100, "Light": 100, "Aura": 100,
+        "Ice": 100, "Clay": 100, "Cloud": 100, "Poison": 100,
+        "Crystal": 100, "Sand": 100, "Magnet": 100,
+        "Storm": 100, "Sound": 100, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Revealeon",
+      "reference-link": "http://floraverse.com/comic/references/334-species-revealeons/",
+      "endemic-in": ["Owel"],
+      "affinity": {
+        "None": 50,
+        "Fire": 50, "Water": 50, "Earth": 50, "Air": 50, "Spirit": 1,
+        "Plasma": 50, "Acid": 50, "Lava": 50, "Light": 50, "Aura": 50,
+        "Ice": 50, "Clay": 50, "Cloud": 50, "Poison": 50,
+        "Crystal": 50, "Sand": 50, "Magnet": 50,
+        "Storm": 50, "Sound": 50, "PSI": 1
+      },
+      "sex": {"asexual": 1},
+      "reproduction": "asexual",
+      "asexual-parent-species": ["Revealeon"],
+      "generable-as-character?": true,
+      "citizen?": true,
+      "varieties": [
+        {
+          "name": "Surveilleon",
+          "asexual-parent-species": ["Surveilleon"]
+        },
+        {
+          "name": "Strawberry Man",
+          "asexual-parent-species": ["Strawberry Man"]
+        }
+      ]
+    },
+    {
+      "name": "Necropossum",
+      "reference-link": "http://floraverse.com/comic/short-stories/376-monsters-from-monsters/",
+      "endemic-in": ["Glissod"],
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 1, "Earth": 1, "Air": 1, "Spirit": 40,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
+        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true,
+      "varieties": [
+        {
+          "name": "Deadwood",
+          "reproduction": "artifact",
+          "generable-as-character?": false,
+          "citizen?": false,
+          "wild?": true
+        }
+      ]
+    },
+    {
+      "name": "Turf Tiger",
+      "reference-link": "http://floraverse.com/comic/this-means-war/406-species-turf-tigers/",
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Pygmy Tiger",
+      "reference-link": "http://floraverse.com/comic/this-means-war/407-species-pygmy-tigers/",
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Bearring",
+      "reference-link": "http://floraverse.com/comic/pages/613-bearrings-common/",
+      "endemic-in": ["Owel"],
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Luneko",
+      "reference-link": "https://floraverse.com/comic/seeds/the-show-must-go-on/806-species-lunekos/",
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Commons Fox",
+      "citizen?": true
+    },
+    {
+      "name": "Mouse",
+      "citizen?": true
+    },
+    {
+      "name": "Bastian",
+      "citizen?": true
+    },
+    {
+      "name": "Borealan Fox",
+      "citizen?": true
+    },
+    {
+      "name": "Uniqorn",
+      "citizen?": true
+    },
+    {
+      "name": "Gorgon",
+      "citizen?": true
+    },
+    {
+      "name": "Kelpie",
+      "citizen?": true
+    },
+    {
+      "name": "Arachoon",
+      "citizen?": true
+    },
+    {
+      "name": "Rugaru",
+      "citizen?": true
+    },
+    {
+      "name": "Clover Lamb",
+      "citizen?": true
+    },
+    {
+      "name": "Cat",
+      "citizen?": true
+    },
+    {
+      "name": "Jackal",
+      "affinity": {
+        "None": 46,
+        "Fire": 46, "Water": 46, "Earth": 46, "Air": 46, "Spirit": 56,
+        "Plasma": 46, "Acid": 46, "Lava": 46, "Light": 46, "Aura": 46,
+        "Ice": 46, "Clay": 46, "Cloud": 46, "Poison": 46,
+        "Crystal": 46, "Sand": 46, "Magnet": 46,
+        "Storm": 46, "Sound": 46, "PSI": 56
+      },
+      "citizen?": true
+    },
+    {
+      "name": "Rakshasa",
+    },
+    {
+      "name": "Pommeranian",
+      "reference-link": "http://floraverse.com/comic/flora/page/102-stemm-animals/",
+      "endemic-in": ["Stemm Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Fiddeleon",
+      "reference-link": "http://floraverse.com/comic/flora/page/102-stemm-animals/",
+      "endemic-in": ["Stemm Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Snowl",
+      "reference-link": "http://floraverse.com/comic/flora/page/102-stemm-animals/",
+      "endemic-in": ["Stemm Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Muddler",
+      "reference-link": "http://floraverse.com/comic/flora/page/102-stemm-animals/",
+      "endemic-in": ["Stemm Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Broccolamb",
+      "reference-link": "http://floraverse.com/comic/flora/page/102-stemm-animals/",
+      "endemic-in": ["Stemm Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "varieties": [
+        {
+          "name": "Cauliflamb"
+        }
+      ]
+    },
+    {
+      "name": "Scalamar",
+      "reference-link": "http://floraverse.com/comic/flora/page/102-stemm-animals/",
+      "endemic-in": ["Stemm Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Zucchinu",
+      "reference-link": "http://floraverse.com/comic/flora/page/102-stemm-animals/",
+      "endemic-in": ["Stemm Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Gingrake",
+      "reference-link": "http://floraverse.com/comic/flora/page/102-stemm-animals/",
+      "endemic-in": ["Stemm Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Tomato-oh",
+      "reference-link": "http://floraverse.com/comic/flora/page/103-cherran-animals/",
+      "endemic-in": ["Cherran Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Flamingon",
+      "reference-link": "http://floraverse.com/comic/flora/page/103-cherran-animals/",
+      "endemic-in": ["Cherran Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Pomegrub",
+      "reference-link": "http://floraverse.com/comic/flora/page/103-cherran-animals/",
+      "endemic-in": ["Cherran Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Frogola",
+      "reference-link": "http://floraverse.com/comic/flora/page/103-cherran-animals/",
+      "endemic-in": ["Cherran Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Catermelon",
+      "reference-link": "http://floraverse.com/comic/flora/page/103-cherran-animals/",
+      "endemic-in": ["Cherran Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Ankirschelosaur",
+      "reference-link": "http://floraverse.com/comic/flora/page/103-cherran-animals/",
+      "endemic-in": ["Cherran Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "varieties": [
+        {
+          "name": "Cherrigator"
+        }
+      ]
+    },
+    {
+      "name": "Platorgon",
+      "reference-link": "http://floraverse.com/comic/flora/page/104-musapeel-animals/",
+      "endemic-in": ["Musapeel Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Bananavern",
+      "reference-link": "http://floraverse.com/comic/flora/page/104-musapeel-animals/",
+      "endemic-in": ["Musapeel Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Starfinch",
+      "reference-link": "http://floraverse.com/comic/flora/page/104-musapeel-animals/",
+      "endemic-in": ["Musapeel Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Lemarlon",
+      "reference-link": "http://floraverse.com/comic/flora/page/104-musapeel-animals/",
+      "endemic-in": ["Musapeel Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Momonkey",
+      "reference-link": "http://floraverse.com/comic/flora/page/104-musapeel-animals/",
+      "endemic-in": ["Musapeel Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Pearimate",
+      "reference-link": "http://floraverse.com/comic/flora/page/104-musapeel-animals/",
+      "endemic-in": ["Musapeel Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Ananantelope",
+      "reference-link": "http://floraverse.com/comic/flora/page/104-musapeel-animals/",
+      "endemic-in": ["Musapeel Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Zanahorsia",
+      "reference-link": "http://floraverse.com/comic/flora/page/105-citrico-animals/",
+      "endemic-in": ["Citrico Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Clementillo",
+      "reference-link": "http://floraverse.com/comic/flora/page/105-citrico-animals/",
+      "endemic-in": ["Citrico Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Pumpkit",
+      "reference-link": "http://floraverse.com/comic/flora/page/105-citrico-animals/",
+      "endemic-in": ["Citrico Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Kikinut",
+      "reference-link": "http://floraverse.com/comic/flora/page/105-citrico-animals/",
+      "endemic-in": ["Citrico Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Taro Moth",
+      "reference-link": "http://floraverse.com/comic/flora/page/105-citrico-animals/",
+      "endemic-in": ["Citrico Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Caterpither",
+      "reference-link": "http://floraverse.com/comic/flora/page/105-citrico-animals/",
+      "endemic-in": ["Citrico Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Salamango",
+      "reference-link": "http://floraverse.com/comic/flora/page/105-citrico-animals/",
+      "endemic-in": ["Citrico Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Myrticke",
+      "reference-link": "http://floraverse.com/comic/flora/page/106-polaris-animals/",
+      "endemic-in": ["Polaris Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Muscant",
+      "reference-link": "http://floraverse.com/comic/flora/page/106-polaris-animals/",
+      "endemic-in": ["Polaris Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Berry Bunny",
+      "reference-link": "http://floraverse.com/comic/flora/page/106-polaris-animals/",
+      "endemic-in": ["Polaris Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Pfig",
+      "reference-link": "http://floraverse.com/comic/flora/page/106-polaris-animals/",
+      "endemic-in": ["Polaris Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Lettuce Lion",
+      "reference-link": "http://floraverse.com/comic/flora/page/106-polaris-animals/",
+      "endemic-in": ["Polaris Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Moletato",
+      "reference-link": "http://floraverse.com/comic/flora/page/106-polaris-animals/",
+      "endemic-in": ["Polaris Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Aubergoose",
+      "reference-link": "http://floraverse.com/comic/flora/page/106-polaris-animals/",
+      "endemic-in": ["Polaris Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Habaneron",
+      "reference-link": "http://floraverse.com/comic/flora/page/107-extra-animals/",
+      "endemic-in": ["Citrico Archipelago"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Wasabika",
+      "reference-link": "http://floraverse.com/comic/flora/page/107-extra-animals/",
+      "endemic-in": ["Citrico Archipelago"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Tetradish",
+      "reference-link": "http://floraverse.com/comic/flora/page/107-extra-animals/",
+      "endemic-in": ["Citrico Archipelago"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Zwiebat",
+      "reference-link": "http://floraverse.com/comic/flora/page/107-extra-animals/",
+      "endemic-in": ["Citrico Archipelago"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Seahorseradish",
+      "reference-link": "http://floraverse.com/comic/flora/page/107-extra-animals/",
+      "endemic-in": ["Citrico Archipelago"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Cheeli",
+      "reference-link": "http://floraverse.com/comic/flora/page/107-extra-animals/",
+      "endemic-in": ["Citrico Archipelago"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Mustallusk",
+      "reference-link": "http://floraverse.com/comic/flora/page/107-extra-animals/",
+      "endemic-in": ["Citrico Archipelago"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Ghost Ray",
+      "reference-link": "http://floraverse.com/comic/flora/page/107-extra-animals/",
+      "endemic-in": ["Citrico Archipelago"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Sea Bear",
+      "reference-link": "http://floraverse.com/comic/flora/page/175-southwest-owel-coastal-animals/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Kamergé",
+      "reference-link": "http://floraverse.com/comic/flora/page/175-southwest-owel-coastal-animals/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Armor Fish",
+      "reference-link": "http://floraverse.com/comic/flora/page/175-southwest-owel-coastal-animals/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Sucker Shark",
+      "reference-link": "http://floraverse.com/comic/flora/page/175-southwest-owel-coastal-animals/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Bweehorse",
+      "reference-link": "http://floraverse.com/comic/flora/page/175-southwest-owel-coastal-animals/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "varieties": [
+        {
+          "name": "Trebol Bweehorse",
+          "reference-link": "http://floraverse.com/comic/flora/page/311-trebol-animals-1/",
+          "endemic-in": ["Trebol"],
+          "pet?": true
+        },
+        {
+          "name": "Backwater Bweehorse",
+          "reference-link": "http://floraverse.com/comic/flora/page/311-trebol-animals-1/",
+          "endemic-in": ["Trebol"]
+        }
+      ]
+    },
+    {
+      "name": "Diamond Head Dolphin",
+      "reference-link": "http://floraverse.com/comic/flora/page/176-southwest-owel-coastal-animals-2/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Peliclam",
+      "reference-link": "http://floraverse.com/comic/flora/page/176-southwest-owel-coastal-animals-2/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Sack Jelly",
+      "reference-link": "http://floraverse.com/comic/flora/page/176-southwest-owel-coastal-animals-2/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Coif Crab",
+      "reference-link": "http://floraverse.com/comic/flora/page/176-southwest-owel-coastal-animals-2/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Polester",
+      "reference-link": "http://floraverse.com/comic/flora/page/176-southwest-owel-coastal-animals-2/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Rockabelly Whale",
+      "reference-link": "http://floraverse.com/comic/flora/page/177-southwest-owel-coastal-animals-3/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Shell Slicer Whale",
+      "reference-link": "http://floraverse.com/comic/flora/page/177-southwest-owel-coastal-animals-3/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Squinker",
+      "reference-link": "http://floraverse.com/comic/flora/page/178-southwest-owel-coastal-animals-4/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Rubbyou",
+      "reference-link": "http://floraverse.com/comic/flora/page/178-southwest-owel-coastal-animals-4/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Mark Knocker",
+      "reference-link": "http://floraverse.com/comic/flora/page/178-southwest-owel-coastal-animals-4/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Beavering",
+      "reference-link": "http://floraverse.com/comic/flora/page/178-southwest-owel-coastal-animals-4/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Sharker",
+      "reference-link": "http://floraverse.com/comic/flora/page/179-southwest-owel-coastal-animals-5/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Slugrub",
+      "reference-link": "http://floraverse.com/comic/flora/page/179-southwest-owel-coastal-animals-5/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Pastelbit",
+      "reference-link": "http://floraverse.com/comic/flora/page/179-southwest-owel-coastal-animals-5/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Gel Squinker",
+      "reference-link": "http://floraverse.com/comic/flora/page/179-southwest-owel-coastal-animals-5/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Drip Seel",
+      "reference-link": "http://floraverse.com/comic/flora/page/179-southwest-owel-coastal-animals-5/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Watercolor Buffalo",
+      "reference-link": "http://floraverse.com/comic/flora/page/180-southwest-owel-coastal-animals-6/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Pangochoir",
+      "reference-link": "http://floraverse.com/comic/flora/page/180-southwest-owel-coastal-animals-6/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Chromadillo",
+      "reference-link": "http://floraverse.com/comic/flora/page/180-southwest-owel-coastal-animals-6/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Spool Spider",
+      "reference-link": "http://floraverse.com/comic/flora/page/180-southwest-owel-coastal-animals-6/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Prism Star",
+      "reference-link": "http://floraverse.com/comic/flora/page/180-southwest-owel-coastal-animals-6/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Giraffe Roller",
+      "reference-link": "http://floraverse.com/comic/flora/page/181-southwest-owel-coastal-animals-7/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Palette Fish",
+      "reference-link": "http://floraverse.com/comic/flora/page/181-southwest-owel-coastal-animals-7/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Glazemodo",
+      "reference-link": "http://floraverse.com/comic/flora/page/181-southwest-owel-coastal-animals-7/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Spraypaint Skunk",
+      "reference-link": "http://floraverse.com/comic/flora/page/181-southwest-owel-coastal-animals-7/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Sack Anemone",
+      "reference-link": "http://floraverse.com/comic/flora/page/182-southwest-owel-coastal-animals-8/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Pearly Whelk",
+      "reference-link": "http://floraverse.com/comic/flora/page/182-southwest-owel-coastal-animals-8/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Cleaner Shrimp",
+      "reference-link": "http://floraverse.com/comic/flora/page/182-southwest-owel-coastal-animals-8/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Porcelain Plate Crab",
+      "reference-link": "http://floraverse.com/comic/flora/page/182-southwest-owel-coastal-animals-8/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Urn Urchin",
+      "reference-link": "http://floraverse.com/comic/flora/page/182-southwest-owel-coastal-animals-8/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Bell-Shelled Tortoise",
+      "reference-link": "http://floraverse.com/comic/flora/page/182-southwest-owel-coastal-animals-8/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Doubloon Barnacle",
+      "reference-link": "http://floraverse.com/comic/flora/page/182-southwest-owel-coastal-animals-8/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Charcoal Chicken",
+      "reference-link": "http://floraverse.com/comic/flora/page/183-southwest-owel-coastal-animals-9/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Stamp Roller",
+      "reference-link": "http://floraverse.com/comic/flora/page/183-southwest-owel-coastal-animals-9/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Sponge Frog",
+      "reference-link": "http://floraverse.com/comic/flora/page/183-southwest-owel-coastal-animals-9/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Gum Shooter",
+      "reference-link": "http://floraverse.com/comic/flora/page/183-southwest-owel-coastal-animals-9/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Living Likeness",
+      "reference-link": "http://floraverse.com/comic/flora/page/183-southwest-owel-coastal-animals-9/",
+      "endemic-in": ["Southwest Owel"],
+      "restricted-to-endemic-areas?": true,
+      "reproduction": "artifact",
+      "wild?": true
+    },
+    {
+      "name": "Melon Barometz",
+      "reference-link": "http://floraverse.com/comic/flora/page/305-screaming-island-fauna/",
+      "endemic-in": ["Screaming Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Mandrake",
+      "reference-link": "http://floraverse.com/comic/flora/page/305-screaming-island-fauna/",
+      "endemic-in": ["Screaming Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Jack",
+      "reference-link": "http://floraverse.com/comic/flora/page/305-screaming-island-fauna/",
+      "endemic-in": ["Screaming Island"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Drone",
+      "reference-link": "http://floraverse.com/comic/flora/page/311-trebol-animals-1/",
+      "endemic-in": ["Trebol"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Pitch Wasp",
+      "reference-link": "http://floraverse.com/comic/flora/page/311-trebol-animals-1/",
+      "endemic-in": ["Trebol"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Melodingo",
+      "reference-link": "http://floraverse.com/comic/flora/page/311-trebol-animals-1/",
+      "endemic-in": ["Trebol"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Smelodingo",
+      "reference-link": "http://floraverse.com/comic/flora/page/311-trebol-animals-1/",
+      "endemic-in": ["Trebol"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Bandragon",
+      "reference-link": "http://floraverse.com/comic/flora/page/311-trebol-animals-1/",
+      "endemic-in": ["Trebol"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Ambeeant",
+      "reference-link": "http://floraverse.com/comic/flora/page/311-trebol-animals-1/",
+      "endemic-in": ["Trebol"],
+      "restricted-to-endemic-areas?": true,
+      "reproduction": "artifact",
+      "wild?": true
+    },
+    {
+      "name": "Leaf-Faced Ant",
+      "reference-link": "http://floraverse.com/comic/references/347-bugs-of-deep-mountain/",
+      "endemic-in": ["Deep Mountain"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Flyght",
+      "reference-link": "http://floraverse.com/comic/references/347-bugs-of-deep-mountain/",
+      "endemic-in": ["Deep Mountain"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Rotobug",
+      "reference-link": "http://floraverse.com/comic/references/347-bugs-of-deep-mountain/",
+      "endemic-in": ["Deep Mountain"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Catfish Rabbit",
+      "reference-link": "http://floraverse.com/comic/references/347-bugs-of-deep-mountain/",
+      "endemic-in": ["Deep Mountain"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Coral Spiderfish",
+      "reference-link": "http://floraverse.com/comic/references/347-bugs-of-deep-mountain/",
+      "endemic-in": ["Deep Mountain"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Slimepillar",
+      "reference-link": "http://floraverse.com/comic/references/347-bugs-of-deep-mountain/",
+      "endemic-in": ["Deep Mountain"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Trunkate",
+      "reference-link": "http://floraverse.com/comic/references/347-bugs-of-deep-mountain/",
+      "endemic-in": ["Deep Mountain"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Fuzzy Moth",
+      "reference-link": "http://floraverse.com/comic/references/347-bugs-of-deep-mountain/",
+      "endemic-in": ["Deep Mountain"],
+      "restricted-to-endemic-areas?": true,
+      "affinity": {
+        "None": 1,
+        "Fire": 1, "Water": 1, "Earth": 50, "Air": 80, "Spirit": 1,
+        "Plasma": 1, "Acid": 35, "Lava": 1, "Light": 50, "Aura": 1,
+        "Ice": 1, "Clay": 40, "Cloud": 1, "Poison": 35,
+        "Crystal": 1, "Sand": 1, "Magnet": 1,
+        "Storm": 1, "Sound": 1, "PSI": 1
+      },
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Sawhorse",
+      "reference-link": "http://floraverse.com/comic/references/347-bugs-of-deep-mountain/",
+      "endemic-in": ["Deep Mountain"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Pendragon",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/377-althar-entry-1/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Bookwyrm",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/377-althar-entry-1/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Vinedra",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/377-althar-entry-1/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Dyevern",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/377-althar-entry-1/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Pricklehog",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/378-althar-entry-2/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true,
+      "varieties": [
+        {
+          "name": "Sicklehog",
+          "endemic-in": ["Pike"],
+          "pet?": false
+        }
+      ]
+    },
+    {
+      "name": "Goatato",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/379-althar-entry-3/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Gossheep",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/379-althar-entry-3/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Star Anisheep",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/379-althar-entry-3/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Histle",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/379-althar-entry-3/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Oregagnome",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/380-althar-entry-4/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Cilantroll",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/380-althar-entry-4/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Sorrelf",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/380-althar-entry-4/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Fennelf",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/380-althar-entry-4/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Sand Hippo",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/381-althar-entry-5/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Sea Snamel",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/381-althar-entry-5/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Puppea",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/382-althar-entry-6/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true,
+      "pet?": true
+    },
+    {
+      "name": "Snappea Turtle",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/382-althar-entry-6/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Lycheel",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/382-althar-entry-6/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Saffrog",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/382-althar-entry-6/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Capsicorn",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/384-althar-entry-7/",
+      "endemic-in": ["Lower Althar"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Nauticorn",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/384-althar-entry-7/",
+      "endemic-in": ["Upper Althar"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Gingerbrab",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/384-althar-entry-7/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "wild?": true
+    },
+    {
+      "name": "Mocking Tree",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/385-althar-entry-8/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "vegetal?": true
+    },
+    {
+      "name": "Tomb Brush",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/385-althar-entry-8/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "vegetal?": true
+    },
+    {
+      "name": "Heaven's Archway",
+      "reference-link": "http://floraverse.com/comic/cascas-journal/385-althar-entry-8/",
+      "endemic-in": ["Althar Province"],
+      "restricted-to-endemic-areas?": true,
+      "vegetal?": true
+    },
+    {
+      "name": "Squeel",
+      "reference-link": "http://floraverse.com/comic/references/754-squeels/",
+      "endemic-in": ["Owel"],
+      "pet?": true,
+      "wild?": true
+    },
+    {
+      "name": "Pufferpup",
+      "reference-link": "http://floraverse.com/comic/references/755-aurorian-pets/",
+      "endemic-in": ["Auroria Territories"],
+      "restricted-to-endemic-areas?": true,
+      "pet?": true,
+      "wild?": true
+    },
+    {
+      "name": "Shellflake",
+      "reference-link": "http://floraverse.com/comic/references/755-aurorian-pets/",
+      "endemic-in": ["Auroria Territories"],
+      "restricted-to-endemic-areas?": true,
+      "pet?": true,
+      "wild?": true
+    },
+    {
+      "name": "Snowspore",
+      "reference-link": "http://floraverse.com/comic/references/755-aurorian-pets/",
+      "endemic-in": ["Auroria Territories"],
+      "restricted-to-endemic-areas?": true,
+      "pet?": true,
+      "wild?": true
+    },
+    {
+      "name": "Paneguin",
+      "reference-link": "http://floraverse.com/comic/references/756-paneguins/",
+      "endemic-in": ["Owel"],
+      "pet?": true,
+      "wild?": true
+    },
+    {
+      "name": "Shardnia",
+      "reference-link": "http://floraverse.com/comic/references/757-shardnias/",
+      "endemic-in": ["Owel"],
+      "pet?": true,
+      "wild?": true
+    }
+  ]
+}

@@ -8,6 +8,8 @@ The directory `images` contains various images from (or based on images from) th
 # Files
 The files and their format is described below.
 
+For the `json` files, a `distribution` of type `type` is a map object whose keys are the `name` of a given `type` and associated values are `number` giving the corresponding weight in the distribution.
+
 ## calendar.json
 Contains the description of the calendar year and astrological signs.
 
@@ -57,8 +59,6 @@ A `sex` object has the following fields:
   - `mother?` (`boolean` or the `string` `"maybe"`): indicate if individuals of that sex are described as biological mother.
   - `gender-distribution` (`distribution`: `gender`): indicate the default distribution used when generating `gender` for individuals of the given `sex`.
 
-A `distribution` of `gender` is described as a map object whose keys are the `name` of a given `gender` and associated values are `number` giving the corresponding weight in the distribution.
-
 ## elements.json
 Contains the description of magical elements. Used for affinities.
 
@@ -99,7 +99,46 @@ The `location-type` object contains the following fields:
 
 The `place` object contains the following fields:
   - `name` (`string`): the name of the location
-  - `reference-link` (`string`, optional): an URL to the page when the location is described. If a location has no `reference-link`, it means that it is the same as the parent location.
+  - `reference-link` (`string`, optional): an URL to the page where the location is described. If a location has no `reference-link`, it means that it is the same as the parent location.
   - `type` (`string`): the name of a `location-type` indicating the type of the place
   - `restricted?` (`boolean`, optional): if `true`, indicate a location (and its sub-locations) cannot be freely used in generated contents. Default to `false`.
   - `locations` (`list`: `place`, optional): a list of places located inside the place. Empty by default.
+
+## species.json
+Contains the species.
+
+The root is an `object` containing the following fields:
+  - `defaults` (`species`): the default values of the species structure. These values are used when not explicited in a species of the list of species.
+  - `species` (`list`: `species`): the list of species
+
+The `species` object contains the following fields:
+  - `name` (`string`): the name of the species
+  - `reference-link` (`string`): an URL to the page where the species is described.
+  - `endemic-in` (`list`: `string`): a list of `place` names where the species is usually found.
+  - `restricted-to-endemic-areas?` (`boolean`): if `true`, indicate the species can only be found in the places where it is endemic.
+  - `affinity` (`distribution`: `element`): the distribution of elemental affinity of the species
+  - `sex` (`distribution`: `sex`): the distribution of sexes of the species
+  - `reproduction` (`string`): the way the species reproduce. Possible values are:
+    - `sexual` for sexual reproduction
+    - `asexual` for asexual reproduction
+    - `artifact` for species whose member are built rather than born
+  - `asexual-parent-species` (`list`: `string`): a list of `species` `name` used in asexual reproduction to indicate which species can generate a member of this species
+  - `generable-as-character?` (`boolean`): if `true`, the species can be used by the character generator to generate a character
+  - `citizen?` (`boolean`): if `true`, indicate that member of this species would be considered citizen in civilized places. Usually means that members of this species have a rather high level of intelligence.
+  - `pet?` (`boolean`): if `true`, indicate that member of this species could be raised as pets or domestic animals in civilized places.
+  - `wild?` (`boolean`): if `true`, indicate that member of this species are usually considered as wild animals in civilized places.
+  - `vegetal?` (`boolean`): if `true`, indicate a species whose members are unable to move on their own, like trees.
+  - `mimic?` (`boolean`): if `true`, indicate the species physically mimics other species, and member of this species (the real species) must be instanciated with another associated species (the immited species). Members of this species usually physically look like members of the immited species, but with modifications from their real species.
+  - `mimic-method` (`object`): indicate the filter used for a mimic species to choose the assoicated species during instanciation.
+  - `mimic-genes-used?` (`boolean`): if `true`, indicate the genes used to compute the species use the real species. If `false`, the genes use the immited species.
+  - `varieties` (`list`: `species`): a list of species based on this species. They used the values of this species as default values and can be considered as variations of a same species.
+
+## crossbreed.csv
+A table indicating if species reproducing by sexual reproduction are compatible and the name of the crossbreed if there is one.
+
+The first line contains name of the mother species and the first column the name of the father species.
+For each cell:
+  - an emtpy cell indicate the species are not compatible
+  - a `+` indicate the species are compatible but there is no known name the crossbreed
+  - another `string` indicate the species are compatible and the string is the name of the crossbreed
+
