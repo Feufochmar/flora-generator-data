@@ -11,7 +11,7 @@
     { "number": 9, "name": "Monmonth", "days": 30, "named-after": "monkey" },
     { "number": 10, "name": "Roosoth", "days": 31, "named-after": "rooster" },
     { "number": 11, "name": "Doth", "days": 30, "named-after": "dog" },
-    { "number": 12, "name": "Pigoth", "days": 31, "named-after": "pig" },
+    { "number": 12, "name": "Pigoth", "days": 31, "named-after": "pig" }
   ],
   "astrological-signs": [
     { "name": "Pegasus", "symbol": "images/astrology/01-Pegasus.svg",
