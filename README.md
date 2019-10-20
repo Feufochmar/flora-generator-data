@@ -5,10 +5,15 @@ It is released under the Creative Commons BY-SA license.
 
 The directory `images` contains various images from (or based on images from) the [Floraverse website](http://floraverse.com).
 
+The input files used for generating names are not present in this repository.
+They use [Phonagen](http://feuforeve.fr/Phonagen), and the languages used by the character generator are present as examples in the Phonagen repository.
+
 # Files
 The files and their format is described below.
 
-For the `json` files, a `distribution` of type `type` is a map object whose keys are the `name` of a given `type` and associated values are `number` giving the corresponding weight in the distribution.
+For the `json` files, the type of the root is given.
+When describing a field, the key of the field is followed by the expected type of the field in parentheses.
+A `distribution` of type `type` is a map object whose keys correspond to the value of the `name` field of the given `type` and associated values are `number` giving the corresponding weight in the distribution.
 
 ## calendar.json
 Contains the description of the calendar year and astrological signs.
@@ -26,8 +31,8 @@ A `month` object has the following fields:
 A `sign` object has the following fields:
   - `name` (`string`): the name of the sign
   - `symbol` (`string`): the path to the image of the symbol of the sign
-  - `from` (`object`: `date`): the starting date of the astrological sign
-  - `to` (`object`: `date`): the ending date of the astrological sign
+  - `from` (`date`): the starting date of the astrological sign
+  - `to` (`date`): the ending date of the astrological sign
 
 A `date` objects used in the astrological signs has the folowing fields:
   - `month` (`integer`): the month of the date
