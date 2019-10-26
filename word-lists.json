@@ -1,0 +1,161 @@
+{
+  "tool": [
+    "axe", "brush", "chisel", "clamp", "crowbar", "drill", "glue gun", "hacksaw", "hex wrench",
+    "hoe", "hammer", "knife", "ladder", "lever", "machete", "mallet", "monkey wrench", "pickaxe",
+    "pincer", "pitchfork", "plumb line", "rasp", "razor", "rope", "ruler", "sander", "saw", "scraper",
+    "screwdriver", "scythe", "shovel", "spade", "sponge", "squeegee", "stapler", "toolbox", "torch",
+    "trowel", "wheel", "wrench"
+  ],
+  "tools": [
+    "callipers", "clippers", "cutters", "pliers", "pruning shears", "safety glasses", "scissors", "tongs"
+  ],
+  "dessert": [
+    "almond cake", "almond paste", "apple crisp", "apple dumpling", "apple pie", "baked apple", "baklava", "banana split",
+    "biscotti", "black forest cake", "bread pudding", "brownie", "butterscotch", "cannoli", "caramel apple",
+    "carrot cake", "cheesecake", "cherry pie", "chocolate bar", "chocolate cake", "chocolate chip cookie",
+    "chocolate mousse", "chocolate truffle", "churro", "cinnamon roll", "cobbler", "coconut cake", "coconut cream pie",
+    "coffee cake", "cookie", "crepe", "cupcake", "custard", "custard pie", "custard tart", "devil's food cake",
+    "doughnut", "eclair", "flan", "fritter", "frozen yogurt", "fruit cake", "fruit cocktail", "fruit salad",
+    "fudge", "gelato", "gingersnap", "gingerbread", "hot-fudge sundae", "ice cream", "ice cream cake", "jam", "jelly",
+    "ladyfinger", "lemon bar", "lemon meringue pie", "macaroon", "marshmallow", "meringue", "milkshake",
+    "mousse", "muffin", "nougat", "oatmeal cookie", "pancakes", "panna cotta", "parfait", "peanut brittle", "peanutbutter cookie",
+    "pecan pie", "pie", "poached pear", "popcicle", "popover", "pound cake", "pudding", "pumpkin pie", "quick bread",
+    "red velvet cake", "rhubarb pie", "raisin bread", "rice pudding", "scone", "sherbet", "shortbread", "s'more",
+    "snickerdoodle", "sorbet", "souffle", "sponge cake", "spumoni", "strawberry shortcake", "strudel", "sugar cookie",
+    "sundae", "sweet potato pie", "sweet roll", "tapioca pudding", "tart", "toffee", "torte", "trifle", "turnover",
+    "upside-down cake", "vanilla cream pie", "vanilla pudding", "waffle", "zabaglione"
+  ],
+  "musical-instrument": [
+    "accordion", "acoustic guitar", "bagpipe", "balalaika", "bandoneón", "banjo", "baritone horn",
+    "bass", "bass clarinet", "bass drum", "bass guitar", "bassoon", "bell", "bongo drum", "bouzouki",
+    "bugle", "castanet", "celesta", "cello", "chime", "cimbalom", "clarinet", "clavichord", "concertina",
+    "conga drum", "contrabass", "cornet", "cowbell", "cymbals", "didgeridoo", "double bass", "drum",
+    "dulcimer", "electric guitar", "electric organ", "euphonium", "fiddle", "fife", "flugelhorn",
+    "flute", "glockenspiel", "gong", "grand piano", "guitar", "harmonica", "harmonium", "harp", "harpsichord",
+    "helicon", "horn", "hurdy gurdy", "kettledrum", "lute", "lyre", "mandolin", "maraca", "marimba",
+    "mellophone", "melodeon", "musical saw", "oboe", "ocarina", "organ", "pan pipes", "penny whistle",
+    "piano", "piccolo", "pipe organ", "pump organ", "rainstick", "ratchet", "saxophone", "sitar", "slide whistle",
+    "snare drum", "sousaphone", "spinet", "steel drum", "steel guitar", "synthesizer", "tabla",
+    "tambourine", "theremin", "thumb piano", "timpani", "tin whistle", "tom-tom drum", "triangle",
+    "trombone", "trumpet", "tuba", "ukulele", "upright piano", "vibraphone", "viola", "violin",
+    "violincello", "vuvuzela", "washboard", "wind chime", "xylophone", "zither"
+  ],
+  "color": [
+    "white", "beige", "cornsilk", "cream", "desert sand", "eggshell", "ivory", "linen", "snow", "vanilla",
+    "grey", "ash gray", "charcoal", "glaucous", "gunmetal", "platinum", "silver", "slate", "rose quartz",
+    "black", "café noir", "ebony", "jet", "onyx", "licorice", "phthalo green",
+    "red", "cardinal", "carmine", "fuchsia", "lust", "magenta", "maroon", "ruby", "rust", "scarlet", "vermilion",
+    "brown", "auburn", "bronze", "burnt umber", "chocolate", "copper", "khaki", "mahogany", "ochre", "russet", "sepia", "sienna", "tan", "taupe", "umber", "wheat",
+    "orange", "amber", "apricot", "bittersweet", "carrot", "coral", "peach", "persimmon", "pumpkin", "salmon", "tangerine", "tomato",
+    "yellow", "buff", "gold", "ecru", "flax", "goldenrod", "lemon", "mustard", "papaya whip", "saffron",
+    "green", "asparagus", "avocado", "celadon", "chartreuse", "emerald", "forest green", "jade", "jungle green", "lime", "malachite", "neon green", "olive", "shamrock",
+    "cyan", "aqua", "aquamarine", "celeste", "electric blue", "mint", "sea green", "teal", "turquoise", "verdigris", "viridian",
+    "blue", "azure", "cerulean", "denim", "navy blue", "periwinkle", "sapphire", "steel blue", "ultramarine",
+    "violet", "purple", "amethyst", "eggplant", "indigo", "lavender", "lilac", "mauve", "orchid", "plum", "thistle", "wisteria",
+    "pink", "amaranth", "carnation", "cerise", "hot pink", "puce", "rose"
+  ],
+  "video-game-genre": [
+    "arcade games", "first-person shooters", "third-person shooters", "real-time strategy games", "turn-based strategy games",
+    "musical games", "simulation games", "puzzle games", "platform games", "fighting games", "racing games", "role-playing games",
+    "massive multiplayer online games", "sports games", "survival games", "stealth games"
+  ],
+  "film-genre": [
+    "action movies", "romantic films", "animated films", "sci-fi films", "archival films", "historical films", "art films",
+    "horror films", "spy films", "swashbuckler films", "musical films", "thrillers", "comedies", "drama movies", "documentaries",
+    "crime films", "biographical films", "western films"
+  ],
+  "writing-genre": [
+    "classic books", "comic books", "crime novels", "fable books", "fairy tale books", "fan fictions", "fantasy novels", "historical fictions",
+    "horror novels", "humor novels", "legend books", "mystery novels", "mythology books", "picture books", "realistic fictions", "science fictions",
+    "short story collections", "suspense novels", "biographies", "autobiographies", "essays", "user's guides", "memoirs", "reference books",
+    "speech collections", "textbooks", "volumes of poetry", "erotic fictions", "religious texts"
+  ],
+  "furniture": [
+    "arcade cabinet", "armchair", "armoire", "bar stool", "beach chair", "bean bag chair", "bed", "bench", "bookcase",
+    "bookshelf", "buffet", "cabinet", "carpet", "chair", "chaise lounge", "chandelier", "chest", "chest of drawers", "coffee table",
+    "console", "couch", "cradle", "cupboard", "curtains", "desk", "desk chair", "dining room table", "display cabinet", "divan",
+    "dresser", "easel", "fauteuil", "file cabinet", "folding chair", "folding screen", "game table", "grandfather clock", "hutch",
+    "lamp", "mirror", "nightstand", "office chair", "rocking chair", "secretary", "shelf", "sideboard", "sofa", "statue", "table",
+    "throne", "vanity", "vitrine", "wardrobe", "waste basket", "wing chair", "work table", "writing desk"
+  ],
+  "mineral": [
+    "agate", "amber", "aquamarine", "aventurine", "azurite", "basalt", "beryl", "calcite", "carnelian", "citrine",
+    "coal", "coral", "crystal", "diamond", "dolomite", "emerald", "feldspar", "fire opal", "fluorite", "fool's gold", "fossil",
+    "garnet", "geode", "gneiss", "gold", "granite", "gypsum", "hematite", "howlite", "jade", "jasper", "jet",
+    "kunzite", "lapis lazuli", "limestone", "magnetite", "malachite", "mica", "moonstone", "moss agate", "nephrite", "obsidian",
+    "onyx", "opal", "orthoclase", "pebble", "peridot", "petrified wood", "pumice", "pyrite", "quartz", "rose quartz", "ruby", "sandstone",
+    "sapphire", "schist", "serpentine", "silica", "soapstone", "sodalite", "spinel", "tiger's eye", "topaz", "tourmaline", "tsavorite",
+    "turquoise", "zircon"
+  ],
+  "weapon": [
+    "assault rifle", "axe", "bat", "baton", "battle axe", "bayonet", "billy club", "blade", "blaster", "blowgun", "blowpipe",
+    "bludgeon", "boomerang", "bow", "brass knuckles", "bullwhip", "carbine", "cat o'nine tails", "cleaver", "club", "crossbow",
+    "cudgel", "cutlass", "dagger", "epee", "flail", "flamethrower", "foil", "gun", "halberd", "handgun", "harpoon", "hatchet",
+    "hunting knife", "javelin", "knife", "kris", "lance", "longbow", "longsword", "mace", "machete", "maul", "morning star",
+    "musket", "nunchaku", "pepper spray", "pickaxe", "pike", "pistol", "quarterstaff", "rapier", "revolver", "rifle",
+    "saber", "scimitar", "scythe", "shotgun", "sickle", "slingshot", "spear", "spiked mace", "stiletto", "stun gun",
+    "switchblade", "sword", "trident", "whip"
+  ],
+  "cloth": [
+    "abaya", "aloha shirt", "anorak", "apron", "ascot tie", "balaclava", "ballgown", "bandana", "baseball cap", "battledress",
+    "beanie", "belt", "beret", "bib", "bikini", "blazer", "blouse", "boilersuit", "bolero jacket", "bonnet", "bow", "bow tie",
+    "bracelet", "button-down shirt", "caftan", "camisole", "cap", "cape", "capris", "cardigan", "chemise", "cloak", "coat",
+    "collar", "corset", "costume", "cowboy hat", "cravat", "crown", "cummerbund", "dashiki", "dinner jacket", "dirndl",
+    "dress", "dress shirt", "evening gown", "feather boa", "fedora", "fez", "flak jacket", "fur coat", "gilet", "girdle",
+    "gown", "handbag", "handkerchief", "hat", "headscarf", "helmet", "hoodie", "hose", "jacket", "jersey", "jumper",
+    "jumpsuit", "kerchief", "kilt", "kimono", "laboratory coat", "leather jacket", "leotard", "loincloth", "miniskirt",
+    "monocle", "muʻumuʻu", "neckerchief", "necklace", "overcoat", "pantsuit", "pantyhose", "pareo", "parka", "pea coat", "peplum",
+    "petticoat", "pinafore", "polo shirt", "poncho", "poodle skirt", "pork pie hat", "pullover", "purse", "raincoat", "ring",
+    "robe", "rugby shirt", "sari", "sarong", "scarf", "shawl", "sheath dress", "shirt", "skirt", "smock-frock", "sombrero",
+    "suit", "sunbonnet", "sundress", "sun hat", "sweater", "sweatshirt", "sweatsuit", "T-shirt", "tank top", "tiara", "tie",
+    "toga", "topcoat", "top hat", "trench coat", "tube top", "tunic", "turban", "turtleneck shirt", "tutu", "tuxedo",
+    "tweed jacket", "umbrella", "undershirt", "uniform", "veil", "vest", "waistcoat", "white tie", "wig", "windbreaker"
+  ],
+  "clothes": [
+    "bell-bottoms", "bloomers", "boots", "boxer shorts", "boxers", "breeches", "briefs", "clogs", "cowboy boots", "culottes",
+    "dungarees", "earmuffs", "earrings", "flip-flops", "gaiters", "galoshes", "garters", "glasses", "gloves", "high heels",
+    "jeans", "leggings", "leg warmers", "loafers", "mittens", "moccasins", "pants", "sandals", "shoes", "shorts", "shoulder pads",
+    "slippers", "sneakers", "socks", "stockings", "sunglasses", "suspenders", "sweatpants", "tights", "trousers", "waders",
+    "zoris"
+  ],
+  "attitude": [
+    "adamant", "alert to sounds", "bashful", "bold", "clumsy", "hasty", "highly persistent", "impetuous and silly", "impish",
+    "lonely", "neat", "often lost in thought", "quirky", "rash", "relentless", "reverent", "serious", "sickly", "slobbish",
+    "somewhat of a clown", "somewhat stubborn", "somewhat vain", "strongly defiant", "strong willed", "thoroughly cunning",
+    "thoughtless", "very finicky", "very intelligent", "extremely patient", "seriously unfunny", "dangerously unfunny",
+    "graceful", "quick-tempered", "cranky"
+  ],
+  "side-effect": [
+    "healing", "noxious", "toxic", "hate-inducing", "despair-inducing", "fear-inducing", "bliss-inducing",
+    "hallucinogenic", "aphrodisiac", "sleep-inducing", "numbing", "paralyzing", "calming", "soothing"
+  ],
+  "drug-substance": [
+    "herb", "leave", "dust", "powder", "pill", "potion", "liquid", "mixture", "oil", "resin", "gum", "alcohol", "wine", "eau de vie",
+    "fluid", "extract", "brandy"
+  ],
+  "compulsive-behaviour": [
+    "alcoholic", "workaholic", "shopaholic", "kleptomaniac", "pyromaniac", "bulimic", "anorexic"
+  ],
+  "phobic": [
+    "ablutophobic", "acousticophobic", "acrophobic", "aerophobic", "agoraphobic", "agyrophobic", "aichmophobic", "algophobic",
+    "amychophobic", "anthropophobic", "aquaphobic", "astraphobic", "autophobic", "aviophobic", "basophobic", "chemophobic",
+    "chromatophobic", "chronophobic", "claustrophobic", "coimetrophobic", "coprophobic", "coulrophobic", "cyberphobic",
+    "decidophobic", "daemonophobic", "dentophobic", "dromophobic", "dysmorphophobic", "emetophobic", "enochlophobic",
+    "ephebiphobic", "ergophobic", "erotophobic", "erythrophobic", "frigophobic", "gamophobic", "gelotophobic",
+    "gephyrophobic", "gerascophobic", "gerontophobic", "globophobic", "glossophobic", "gynophobic", "halitophobic",
+    "haphephobic", "hedonophobic", "heliophobic", "haemophobic", "hoplophobic", "hypnophobic", "koumpounophobic",
+    "lilapsophobic", "mageirocophobic", "melanophobic", "monophobic", "mysophobic", "necrophobic", "neophobic",
+    "nomophobic", "nosocomephobic", "nosophobic", "nostophobic", "numerophobic", "nyctophobic", "oikophobic",
+    "oneirophobic", "ophthalmophobic", "osmophobic", "panphobic", "pedophobic", "phagophobic", "phallophobic",
+    "pharmacophobic", "phasmophobic", "philophobic", "phobophobic", "phonophobic", "pornophobic", "pyrophobic",
+    "radiophobic", "scopophobic", "sexophobic", "siderodromophobic", "sociophobic", "spectrophobic", "stasiphobic",
+    "taphophobic", "technophobic", "teratophobic", "tetraphobic", "thalassophobic", "thanatophobic", "thermophobic",
+    "toxiphobic", "traumatophobic", "trichophobic", "triskaidekaphobic", "trypanophobic", "trypophobic", "xanthophobic",
+    "xenophobic", "zoophobic",
+    "ailurophobic", "apiphobic", "arachnophobic", "batrachophobic", "chiroptophobic", "cynophobic", "entomophobic",
+    "equinophobic", "herpetophobic", "ichthyophobic", "murophobic", "ophidiophobic", "ornithophobic", "ranidaphobic",
+    "scoleciphobic",
+    "bibliophobic", "lipophobic", "photophobic",
+    "biphobic", "heterophobic", "homophobic", "lesbophobic", "psychophobic", "transphobic"
+  ]
+}

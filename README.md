@@ -151,3 +151,7 @@ For each cell:
   - a `+` indicate the species are compatible but there is no known name the crossbreed
   - another `string` indicate the species are compatible and the string is the name of the crossbreed
 
+## word-lists.json
+A dictionary of words classified by categories.
+
+The root is an `object` whose fields indicate the name of the category and associated values are `list` of `string` containing the different words of the category.
