@@ -1,0 +1,22 @@
+{
+  "argumentative": ["argumentative", "antagonistic", "articulate", "garrulous", "hot-tempered", "overbearing"],
+  "arrogant": ["arrogant", "aloof", "elitist", "haughty", "proud", "rude"],
+  "capricious": ["capricious", "impulsive", "irreverent", "lusty", "madcap", "mischievous"],
+  "careless": ["careless", "absent-minded", "dreamy", "insensitive", "lacking common sense", "thoughtless"],
+  "courageous": ["courageous", "brave", "craven", "fearless", "obsequious", "shy"],
+  "curious": ["curious", "inquisitive", "intellectual", "keen", "perceptive", "prying"],
+  "exacting": ["exacting", "driven", "harsh", "perfectionist", "punctual", "stern"],
+  "friendly": ["friendly", "compassionate", "easy-going", "forgiving", "kind-hearted", "trusting"],
+  "generous": ["generous", "charitable", "extravagant", "kind", "spendthrift", "wastrel"],
+  "greedy": ["greedy", "avaricious", "covetous", "hard-hearted", "miserly", "thrifty"],
+  "moody": ["moody", "compulsive", "gloomy", "irritable", "morose", "vengeful"],
+  "naive": ["naive", "gullible", "hick", "honest", "innocent", "truthful"],
+  "opinionated": ["opinionated", "biased", "bigoted", "blustering", "hide-bound", "narrow-minded"],
+  "optimistic": ["optimistic", "cheerful", "diplomatic", "foolhardy", "happy", "pleasant"],
+  "pessimistic": ["pessimistic", "cynical", "depressing", "fatalistic", "realistic", "sarcastic"],
+  "quiet": ["quiet", "laconic", "mousy", "retiring", "secretive", "soft-spoken"],
+  "sober": ["sober", "dull", "level-headed", "ponderous", "practical", "reverent"],
+  "suspicious": ["suspicious", "cautious", "deceitful", "nervous", "paranoid", "scheming"],
+  "uncivilized": ["uncivilized", "barbaric", "boorish", "crude", "graceless", "uncultured"],
+  "violent": ["violent", "cruel", "immoral", "jealous", "sadistic", "warlike"]
+}
