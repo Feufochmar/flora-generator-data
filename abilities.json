@@ -1,0 +1,1417 @@
+[
+  {
+    "name": "Cold Tolerance",
+    "description": "A person with this ability can live in very cold environments without the need of protecting themselves from the low temperatures.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Aurorian Fox",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Cagroodle",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "affinity",
+        "affinity": "Ice",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Heat Tolerance",
+    "description": "A person with this ability can live in very hot environments without the need of protecting themselves from the high temperatures.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Fire",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Lava",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Lava Walker",
+    "description": "A person with this ability can walk on lava or swim in lava (depending on the viscosity of the lava) without sustaining damage from the heat.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Lava",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Hypnotizing Glare",
+    "description": "A person with this ability can suggest behaviour and practice mind control on other individuals with their gaze. Individuals with horizontal pupils are immune against the sugestions of users of this ability.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Cockatrice",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Rooster Crow Syndrome",
+    "description": "A person with this ability are debilitated upon hearing the crow of a rooster. The hearing of a rooster crow gives persons with this ability painful headaches and can render them immobile for several days.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Cockatrice",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Lisk Speaker",
+    "description": "A person with this ability can understand Lisk and speak it innately.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Cockatrice",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Plant Speaker",
+    "description": "A person with this ability can understand and talk to any kind of sentient plant innately.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Flowercat",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Flower Frog",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Owel Treant",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Pygmy Pyzky",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Weather Forecast",
+    "description": "A person with this ability can predict abrupt weather changes a few days in advance.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Flowercat",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "affinity",
+        "affinity": "Air",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Cloud",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Storm",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Plant Diagnosis",
+    "description": "A person with this ability can diagnose the condition of non-sentient plants.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Flowercat",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Plant Knowledge",
+    "description": "A person with this ability can tell if plants are edible, poisonous, or medicinal by inspecting them briefly.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Flowercat",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Fruit Sharing",
+    "description": "A person with this ability can share an ability or its effects with another individual of their choice by giving them an edible, and regenerable part of their body (such as fruits, flowers, etc.). The other individual must eat the given body part to temporarily gain the shared ability or its effects. The user cannot share this ability itself.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Fruit Frog",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Small Adaptation",
+    "description": "A person with this ability can make small changes to their body shape in order to get an advantage in a given situation.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Gelbeast",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Translator",
+    "description": "A person with this ability can learn the basis of a language in a few hours and a new language in a few days.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Gelbeast",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Disease Filter",
+    "description": "A person with this ability can cure diseases and toxines from food to render it edible.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Gelbeast",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "affinity",
+        "affinity": "Poison",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Magic Frailty",
+    "description": "A person with this ability is extremely succeptible to magic of any kind.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Gelbeast",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Blob Body",
+    "description": "A person with this ability is extremely resiliant to physical injury due to their lack of bones and internal organs.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Gelbeast",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Instinctal Craft",
+    "description": "A person with this ability knows innately how to make an item of a specific kind. The kind of items depends on the species.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Hanged Man",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Light Levitation",
+    "description": "A person with this ability can levitate small and light items with their mind.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Hanged Man",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "affinity",
+        "affinity": "PSI",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Spirit",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Possession",
+    "description": "A person with this ability can take possession of a dead body and use it as their own body.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Hanged Man",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Amphibious",
+    "description": "A person with this ability can breathe in air and underwater.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Water",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Diamond Skin",
+    "description": "A person with this ability can withstand extreme pressures.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Earth",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Crystal",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Watching Session",
+    "description": "A person with this ability can acquire knowledge by observing a choosen subject during sessions of several hours. A user retains what they have learnt in a session only if they stay focused during the whole session. The knowledge aquisition process is made quicker if the user is interested in the subject studied.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Masked Owl",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Knowledge Eater",
+    "description": "A person with this ability sustains themselves by learning new things. They do not need to eat food or drink water to survive.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Masked Owl",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Words Everywhere",
+    "description": "A person with this ability can communicate with others by summoning magical glyphs, which float and glow in the air. The glyphs can be understood by any individual, regardless of what languages the individual actually knows. The glyphs remain until the user dismisses them of leave their immediate vicinity.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Moahu",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Artifical Body",
+    "description": "A person with this ability does not have a biological body, being built rather than born, and are thus immune to most kinds of poisons, diseases and medicines.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Moahu",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Deadwood",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Living Likeness",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Ambeeant",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Body Reclamation",
+    "description": "A person with this ability can incorporate bodies of recently deceased into artifacts to create new individuals. The new individual often share behaviours, personality traits, and elemental affinities of the incorporated body.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Moahu",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Fae Speaker",
+    "description": "A person with this ability can understand Fae and speak it innately.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Necropossum",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Pygmy Pyzky",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Oregagnome",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Cilantroll",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Sorrelf",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Fennelf",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Snowspore",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Play Dead",
+    "description": "A person with this ability comes back to life after their death as long as their brain remains intact. After their death, they are unable to reproduce and their body needs special upkeep to prevent decomposition.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Necropossum",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Play Life",
+    "description": "A person with this ability can manipulate dead bodies and artificial non-living bodies (like dolls, puppets and mannequins) and order them around.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Necropossum",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Venomous",
+    "description": "A person with this ability can produce venom and inject it with a specific body part (stings, fangs, claws, ...). The venom effects depends on the species, individuals and affinities.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Manticore",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Fatal Nightmares Venom",
+    "description": "A person with this ability produces a deadly venom that affects only sleeping individuals. The venom poisons dreams, becoming nightmares. The targeted individual cannot wake up anymore and the nightmares end when the victims' heart stops.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": ["Manticore", "Necropossum"],
+        "gene-threshold": 20,
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Power Ballad",
+    "description": "A person with this ability can shred the soul of other individual by singing and shouting.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": ["Clover Lamb", "Necropossum"],
+        "gene-threshold": 20,
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "No Response",
+    "description": "A person with this ability produces a nasty venom that poisons and shuts down the immune system. The venom often results in localized diseases and infection around wounds inflicted by the user.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": ["Vanguard", "Necropossum"],
+        "gene-threshold": 20,
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Now You See Him",
+    "description": "A person with this ability is really good at standing still. The longer theyr stand still, the harder it is to see them, rendering them invisible to others.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": ["Jackal", "Necropossum"],
+        "gene-threshold": 20,
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Spirit Chains",
+    "description": "A person with the Spirit Chains ability can chain souls to an area and seal off spirits.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": ["Jackal", "Necropossum"],
+        "gene-threshold": 20,
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Feral Indifference",
+    "description": "A person with this ability are never attacked by feral animals unless they provoke them.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Pygmy Pyzky",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Feral Control",
+    "description": "A person with this ability can issue minor commands to small feral animals. Although the animals may ignore the commands, they tend to follow them.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Pygmy Pyzky",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Nature Boost",
+    "description": "A person with this ability makes nature flourish around their living place. An area under the effect of this ability sees plants growing quicker, wild animal presence increasing, weather becoming more docile, and other effects depending on the area and its affinity. The effects are amplified if several persons with this ability are present in the same area.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Pygmy Pyzky",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Wind Pacification",
+    "description": "A person with this ability can stop wind from hitting anything inside an area. The extent of the protected area depends on the user control on the ability.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Pygmy Pyzky",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "affinity",
+        "affinity": "Storm",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Air",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Flower Colors",
+    "description": "A person with this ability can change the colors of flowers.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Pygmy Pyzky",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Vegan",
+    "description": "A person with this ability can only eat food made from plants. They get food illness if they eat meat.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Pygmy Pyzky",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Crowd Camo",
+    "description": "A person with this ability can fit into new groups easily and swiftly. The larger the group, the more seamless the assimilation.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Pygmy Tiger",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Leon Speaker",
+    "description": "A person with this ability can understand Leon and speak it innately.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Revealeon",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Eye Spy",
+    "description": "A person with this ability can observe and completely memorize their surrounding environment. They are then able to replay this observation, or memory, in the form of taking on the appearance of anything within it. The memories are not perfect, however, and the forms they take on are flawed in some way. If they do not periodically refresh their memory, their appearance will start to degrade over time.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Revealeon",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Bad Sleeper",
+    "description": "A person with this ability is immune to all forms of hypnosis.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Rock Candies",
+        "gene-threshold": 20,
+        "automatic?": false
+      },
+      {
+        "type": "species",
+        "species": "Satyr",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Goatixy",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Flower Frog",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Scrapgoat",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Grower",
+    "description": "A person with this ability grows things on their body. The kind of things they grow depends on the species.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Rock Candies",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Satyr",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Goatixy",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Coralshell Turtle",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Electrical Insulation",
+    "description": "A person with this ability is immune to all but strong electric currents.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Rock Candies",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "affinity",
+        "affinity": "Earth",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Plasma",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Venom Ferment",
+    "description": "A person with this ability processes all ingested poison into alcohol.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Satyr",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "species",
+        "species": "Goatixy",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "affinity",
+        "affinity": "Poison",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Recycle",
+    "description": "A person with this ability is able to insert into their body any item of interest that physically fit. They will then integrate the item into their body, which cause gradual changes in their appearance, affinities and abilities. If they do not consume the required nutrients to allow for continued integration and growth of the item, they will shed it and their appearance will slowly revert to its look pre-integration.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Scrapgoat",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Catalyst Needed",
+    "description": "A person with this ability is unable to physically heal on their own. They need a catalyst of some kind to start and maintain the healing process, degrading the item for this use thereafter. The user is able to tell if a catalyst item can still be used for the healing process.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Sea Dragon",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Energy Reader",
+    "description": "A person with this ability can tell how much a crystal contains magic energy.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Sea Dragon",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "affinity",
+        "affinity": "Crystal",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Properties Listener",
+    "description": "A person with this ability can discern with the sense of hearing additionnal informations or properties that are inaudible to individual without this ability. The kind of properties heard depends on the individual.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Singing Rabbat",
+        "gene-threshold": 20,
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Value Listener",
+    "description": "A person with this ability can discern, with the sense of hearing, the value that someone places in an item.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Singing Rabbat",
+        "gene-threshold": 20,
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Prophecy Song",
+    "description": "A person with this ability may dream of a song being sung to them. The song is always without lyrics, consisting of just melodies and tones. The song is the form their prophecies take, and they’re always for the individual who sang it to them in the dream. A person with this ability will usually attempt to seek that individual out and sing the song back to them. If this happens, the two will share a dream detailing the events of the prophecy. If more than one individual hears the song, the prophecy and dream will be shared among all of them.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Singing Rabbat",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "War?",
+    "description": "A person with this ability can render all forms of combat, either physical or magic, incapable of causing grievous or permanent injury to anyone subjected to them during a fight.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Turf Tiger",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Sand Swimmer",
+    "description": "A person with this ability can swim and move in the sand as if it was water.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Sand Hippo",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "affinity",
+        "affinity": "Sand",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Hypnotizing Lights",
+    "description": "A person with this ability can suggest behaviour and practice mind control on other individuals by emitting lights with their bodies.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Nauticorn",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "affinity",
+        "affinity": "Light",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Spicy Cloud",
+    "description": "A person with this ability can breathe out or emit volatile and spicy oils that cause burns.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Capsicorn",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "affinity",
+        "affinity": "Acid",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Astral Projection",
+    "description": "A person with this ability can project their conciousness in spiritual form when they are asleep, and can explore the world around them when dreaming. When they wake up, they can remember their explorations.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Bearring",
+        "gene-threshold": 20,
+        "automatic?": true
+      },
+      {
+        "type": "affinity",
+        "affinity": "PSI",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Spirit",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Bubble Biome",
+    "description": "A person with this ability can pass through a special helmet containing a real biome that makes them comfortable in any environment. Those helmets are completely solid to people who don't have this ability.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Luneko",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
+    "name": "Dispelling Touch",
+    "description": "A person with this ability can remove magical effects affecting other individuals or items by touching them with a specific body part (ex: hand, tail, horn, ...). The ability works by transferring the effects from the target to the user. The transferred effects affect the user to a lesser extent than the target while they are dispersing them with their body. The duration of the dispersion varies depending on the dispelled effect and a user need to rest after several minutes of Dispelling Touch use. If the target is affected by several magical effects, the most powerful effects are transfered and dispersed first. A user can only disperse an effect at a time cannot choose the dispersed effect. Dispersing the same effect, or several effect with the same affinity, several times in a row may lead the user to temporary or definitively gain the affinity of the dispersed effect, disabling their Dispelling Touch temporary or definitively.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "None",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Burning Touch",
+    "description": "A person with this ability can raise the temperature of items or other individuals by touching them with a specific body part (ex: hand, tail, horn, ...). The temperature raises quickly before reaching a maximum. The maximum depends on the user control over their ability and the target material. The user can maintain a high temperature during several minutes before needing to rest for a while.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Fire",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Osmosis Touch",
+    "description": "A person with this ability can exchange water between their body and the body of another living being by touching them with a specific body part (ex: hads, tail, horn, ...). This allows the user to dehydrate and \"drink\" water from another individual (and vice-versa, making the target drinking the water of the user). The user can decide either to drain or give water if the user and their target have the around same amount of water in their body. The user cannot decide if the difference of water present in their body and their target's body is too large (notably it can lead to dangerous situation for the user if the target is a drop made of water or devoid of water).",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Water",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Levitating Touch",
+    "description": "A person with this ability can make levitate an item and control its direction after touching it with a specific body part (ex: hands, tail, horn, ...). The duration of the levitation is the same as the duration of the contact that preceded it. The user cannot make levitate more that one item at the same time.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Air",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Static Touch",
+    "description": "A person with this ability can give an electrical shock to another individual by touching them with a specific body part (ex: hand, claw, tail, sting, horn, ...). After giving an electrical shock, the user usually need to wait several minutes before being able to give another electrical shock. The amount of time needed to recharge the ability varies with the amount of Plasma magic present in the environment. In a place filled with Plasma magic, the Static Touch ability is recharged so quickly that it can be triggered several times in a row without needing to wait.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Plasma",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Darkness Touch",
+    "description": "A person with this ability can give blindness to another individual by touching them with a specific body part (ex: hand, claw, tail, sting, horn, ...). The user perceive the light that the victim should have perceived during the duration of the effect, the victim being unable to perceive any light during the same time. The duration of the effect depends of the duration of the contact, a contact of few seconds usually give blindness for a few dozens of seconds. A prolonged contact can damage the organs perceiving light of both the user and the victim. Individuals unable to perceive light are unaffected by this abilty.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Light",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Allergic Touch",
+    "description": "A person with this ability can triggers severe allergic reactions to another individual by touching their skin with a specific body part (ex: hand, tail, horn, ...). The allergic reactions mostly take form of skin eruptions occurring almost instantaneously around the point of contact. The rash is extremely painful and stays for several hours before disappearing. In rare cases, it can lead to the death of the targeted individual. The user of the Allergic Touch ability is often not able to control the ability and tends to trigger it automatically whenever they touch the skin of another individual. People without organic skin are most of the time not affected by this ability.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Lava",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Icy Touch",
+    "description": "A person with this ability can lower the temperature of items or other individuals by touching them with a specific body part (ex: hand, tail, horn, ...). The temperature lowers quickly before reaching a minimum. The minimum depends on the user control over their ability and the target material. The user can maintain a low temperature during several minutes before needing to rest for a while.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Ice",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Dew Touch",
+    "description": "A person with this ability can condensate water on items or other individual by touching them with a specific body part (ex: hand, tail, horn, ...). The water present in air are attracted by the body part of the user and will condensate around the area the user is touching. The ability can only be triggered if there are humidity in air, and its power depends on the level of humidity in air. The ability is notably ineffective in very dry places, while in very damp places, water will flow from the user body part.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Cloud",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Bending Touch",
+    "description": "A person with this ability can deform items of any material as if they were made of clay and give them a new shape by manipulating them with their hands. The amount of deformation the user can make when triggering this ability depends on the initial plasticity of the material. A deformed item keeps its new shape. The user need to rest before triggering this ability again.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Clay",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Venomous Touch",
+    "description": "A person with this ability can poison another individual by touching them with their hands and transmitting their venom through the skin. The venom effect depends on the individual, each user producing a unique venom. The passivity of the ability depends on the control the user has on their ability. Notably, this ability is passive (and automatically triggered) by young individuals (or people who have recently acquired the ability), though their venom is not as potent as the venom of an adult. An adult user can usually decide to trigger (or not trigger) the ability at will, though them may trigger it accidentally.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Poison",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Tornado Touch",
+    "description": "A person with this ability can inflige confusion and nausea to another individual by touching them with a specific body part (ex. hand, tail, horn, ...). Upon contact, the target will have their senses confused as if they were inside a tornado. The duration and the power of the effect depends on the user and their control on the ability. This ability can also work passively, as a defense mechanism, by confusing every individual touching the user without the user's consent. The passive version can be triggered by touching any body part of the user, not just the body part triggering it actively.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Storm",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Musical Touch",
+    "description": "A person with this ability can share a song, melody or any kind of sounds with another individual by touching them with a specific body part (ex: hand, tail, horn, ...). Upon contact, the target's sense of hearing is affected so that they hear a recording of something the user has previously heard. The user can choose what the target will hear. The length of the recording depends on the user's control on the ability, and usually does not exceed 4 to 6 minutes.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Sound",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Appraising Touch",
+    "description": "A person with this ability can judge intrisic or subjective properties of items by touching them with a specific body part (ex: hand, tail, horn). The number and type of properties that can be evaluated depends of the user and their control and the ability.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Crystal",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Sticky Touch",
+    "description": "A person with this ability can make items stick to them by touching them with a specific body part (ex: hand, tail, horn, ...). The user is able to make items stick to them only if those items are made or contain a specific material (iron, wood, plastics...). The exact type of material depends on the user.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Magnet",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Telepathic Touch",
+    "description": "A person with this ability can communicate telepathically with any other individual by touching them with a specific body part (ex: hand, tail, horn, ...). The user and target may not need to share a language or to be sentient to be able to communicate. The communication is broken when the contact stops.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "PSI",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Magnet Ski",
+    "description": "A person with this ability can levitate a few inches above the ground when they wear a pair of ski or are standing on a any kind of board.",
+    "author": "Feufochmar",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Magnet",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Decompression Venom",
+    "description": "A person with this ability can produce a venom that causes symptoms similar to decompression sickness. The severity of symptoms a target suffers depends on the amount of venom injected. Symptoms of a small or mild dose include joint pain, disorientation nausea, minor loss of balance, ringing in the ears, and headaches. Symptoms of a larger or more severe doses include excruciating pain, disorientation, vertigo, blinding migraines, tingling or oversensitive skin, severe nausea, deafening ringing in the ears, and occasionnally partial paralysis. Symptoms last from several dozens of minutes to several hours.",
+    "author": "R.Condon",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Air",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Crystalline Voice",
+    "description": "A person with this ability can affect the mental state and behaviour of other individuals by singing a melody. Any individual hearing the melody is affected by a behaviour change. The new behaviour of the affected individuals depends on the melody sung, and can be changed by the user by changing melody. The affected individuals follow the orders of the user as long as they hear the user's melody.",
+    "author": "Shikka",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Air",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Sound",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Crystal",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Dream Item",
+    "description": "A person with this ability can summon ethereal items and body parts made of light or spirit energy. The user must really appreciate to get such objects to be able to create them. The user can maintain and use the ethereal objects as long as they keep good thoughts.",
+    "author": "Shikka",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Spirit",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Light",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Knife Dance",
+    "description": "A person with this ability can lift items with their mind. The user can lift items of any weight as long as the user need them to fulfil a contract.",
+    "author": "Shikka",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Aura",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "PSI",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Sound of Smell",
+    "description": "A person with this ability can suggest aromas to other individual when emitting sounds. When an individual hears those sounds, their smell receptors are triggered with an aroma chosen by the user. The kind of aroma smelt depends on the sound heard.",
+    "author": "Shikka",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Sound",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Sound of Taste",
+    "description": "A person with this ability can suggest flavours to other individual when emitting sounds. When an individual hears those sounds, their taste receptors are triggered with a flavour chosen by the user. The kind of aroma tasted depends on the sound heard.",
+    "author": "Shikka",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Sound",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Memory Reveal",
+    "description": "A person with this ability can project a beam of Psi energy. When the beam encounters an item, it turns into bubbles displaying what happened around the item during the last times an individual touched it. The number of bubble formed depends on the amount of energy projected in the beam.",
+    "author": "SP3CT3R",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "PSI",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Reflected Future",
+    "description": "A person with this ability can see how other individuals would look like at varying points in the future by looking at their reflections in a mirror. The reflections seen by the user show what would happen if the user does not intervene. The ability does not work on the user's reflection.",
+    "author": "SP3CT3R",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Crystal",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Polarize",
+    "description": "A person with this ability can influence those around them to side with or against them on any controversial topic at hand. The ability only enhances the opinion somebody already has, so it won't work on someone is neutral on the matter, and won't work at all if the user is themselves sitting on the fence.",
+    "author": "SP3CT3R",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Magnet",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Don't Push It",
+    "description": "A person with this ability have good luck which usually manifests itself in the form of bad things not happening to them, like surviving a natural disaster, or recovering from an illness. However, this luck disappears whenever they do something dangerous or risky thinking that their ability will protect them.",
+    "author": "SP3CT3R",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Clay",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Cassandra Was Right",
+    "description": "A person with this ability can imbue their voice with the effect of others disbelieving or opposing what they say. Most people with it tend to be skilled in the application of reverse psychology.",
+    "author": "SP3CT3R",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Poison",
+        "automatic?": false
+      }
+    ]
+  },
+  {
+    "name": "Let's Get Physical",
+    "description": "A person with this ability can interact with certain substances, related to their affinity, as though they were physical solids.",
+    "author": "SP3CT3R",
+    "conditions": [
+      {
+        "type": "affinity",
+        "affinity": "Water",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Fire",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Air",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Plasma",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Acid",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Light",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Aura",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Lava",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Cloud",
+        "automatic?": false
+      },
+      {
+        "type": "affinity",
+        "affinity": "Poison",
+        "automatic?": false
+      }
+    ]
+  }
+]

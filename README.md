@@ -152,14 +152,14 @@ For each cell:
   - another `string` indicate the species are compatible and the string is the name of the crossbreed
 
 ## word-lists.json, natures.json
-Dictionaries of words classified by categories.
+Contains dictionaries of words classified by categories.
   * `natures.json` is specific to personnality traits.
   * `word-lists.json` contain generic categories used for generating various character traits.
 
 The root is an `object` whose fields indicate the name of the category and associated values are `list` of `string` containing the different words of the category.
 
 ## traits.json
-List of templated sentences grouped in categories.
+Contains lists of templated sentences grouped in categories.
 
 The root is an `object` whose fields indicate the name of the category and associated values are `list` of `sentence`.
 
@@ -178,3 +178,25 @@ A `token` is a `object` containing a single field among those:
   - `location` (value unused): the token should be replaced by the `name` field of a `location` instance (from `geography.json`). The value is unused and should be set to `true`.
 
 Some fields can take a `token` object as a value. Those should be replaced by a `string` before applying the token rule.
+
+## abilities.json
+Contains the list of abilities.
+
+The `root` is a `list` of `ability` objects.
+
+An `ability` object contains the following fields:
+  - `name` (`string`): the name of the ability
+  - `description` (`string`): the description of the ability
+  - `author` (`string`): the original author behind the ability
+  - `conditions` (`list`: `ability-condition`): a list of conditions to get the ability. A generated character can get the ability if one of the condition is respected.
+
+An `ability-condition` object contains the following fields:
+  - `type` (`string`): indicate the kind of condition. The possible values are the strings `"species"` and `"affinity"`.
+  - `automatic?` (`boolean`): indicate if the ability is automatically got when the condition is respected
+
+A species condition contains the following fields:
+  - `species` (`string` or `list`: `string`): The species or list of species a character should have in its genes to get the ability.
+  - `gene-threshold` (`number`): the percentage of genes of the species to get the ability
+
+An affinity condition contains the following fields:
+  - `affinity` (`string`): the needed affinity to get the ability
