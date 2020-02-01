@@ -9,7 +9,8 @@
     { "name": "town", "preposition-in": "in", "preposition-near": "near" },
     { "name": "lake", "preposition-in": "along", "preposition-near": "near" },
     { "name": "river", "preposition-in": "along", "preposition-near": "near" },
-    { "name": "seashore", "preposition-in": "along", "preposition-near": "near" },
+    { "name": "cape", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "bay", "preposition-in": "along", "preposition-near": "near" },
     { "name": "plain", "preposition-in": "on", "preposition-near": "near" },
     { "name": "cave", "preposition-in": "in", "preposition-near": "near" },
     { "name": "hill", "preposition-in": "on", "preposition-near": "near" },
@@ -251,7 +252,7 @@
                       },
                       {
                         "name": "Luxury Cove",
-                        "type": "seashore"
+                        "type": "bay"
                       }
                     ]
                   },
@@ -618,7 +619,7 @@
                   },
                   {
                     "name": "Frosty Bay",
-                    "type": "seashore"
+                    "type": "bay"
                   }
                 ]
               },
@@ -669,7 +670,7 @@
                   },
                   {
                     "name": "Frosty Bay",
-                    "type": "seashore"
+                    "type": "bay"
                   }
                 ]
               },
@@ -835,7 +836,7 @@
               },
               {
                 "name": "Carrot Crook",
-                "type": "seashore"
+                "type": "bay"
               },
               {
                 "name": "Candy Rock Territories",
@@ -959,7 +960,131 @@
           {
             "name": "Eastar",
             "type": "continent",
-            "restricted?": true
+            "reference-link": "https://floraverse.com/comic/too-itchy/floraverse-eastar-islands/malwire-reference-points/828-eastar-map/",
+            "locations": [
+              {
+                "name": "Hourglass Port",
+                "type": "bay"
+              },
+              {
+                "name": "Lake Auron",
+                "type": "lake"
+              },
+              {
+                "name": "Lake Earie",
+                "type": "lake"
+              },
+              {
+                "name": "Arcus",
+                "type": "city"
+              },
+              {
+                "name": "Lake of Memories",
+                "type": "lake"
+              },
+              {
+                "name": "Clearing Forest",
+                "type": "forest"
+              },
+              {
+                "name": "Ladybird",
+                "type": "city"
+              },
+              {
+                "name": "Elysian Field",
+                "type": "plain"
+              },
+              {
+                "name": "Lady Lethe River",
+                "type": "river"
+              },
+              {
+                "name": "Passage of Time",
+                "type": "mountain"
+              },
+              {
+                "name": "Mount Verdent",
+                "type": "mountain"
+              },
+              {
+                "name": "Fortuna",
+                "type": "city"
+              },
+              {
+                "name": "Pit Plains",
+                "type": "plain"
+              },
+              {
+                "name": "Chance Cove",
+                "type": "bay"
+              },
+              {
+                "name": "Chance",
+                "type": "city"
+              },
+              {
+                "name": "Deep Desert",
+                "type": "desert"
+              },
+              {
+                "name": "Wishbone",
+                "type": "city"
+              },
+              {
+                "name": "Rachis Mountains",
+                "type": "mountain"
+              },
+              {
+                "name": "Mount Veil",
+                "type": "mountain"
+              },
+              {
+                "name": "Knell Grove",
+                "type": "plain"
+              },
+              {
+                "name": "Horseshoe",
+                "type": "city"
+              },
+              {
+                "name": "Field of Hue",
+                "type": "plain"
+              },
+              {
+                "name": "Lake Lethe",
+                "type": "lake"
+              },
+              {
+                "name": "Lost Field",
+                "type": "plain"
+              },
+              {
+                "name": "Talsam",
+                "type": "city"
+              },
+              {
+                "name": "Cape Carnival",
+                "type": "cape"
+              },
+              {
+                "name": "Cape Ennui",
+                "type": "cape"
+              },
+              {
+                "name": "Eastar's Eggs",
+                "type": "region",
+                "locations": [
+                  {
+                    "name": "Clear Watching Bay",
+                    "type": "bay"
+                  },
+                  {
+                    "name": "Clear Watching",
+                    "type": "island"
+                  }
+                ]
+              }
+            ]
           },
           {
             "name": "Glissod",
