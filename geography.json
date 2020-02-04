@@ -963,6 +963,71 @@
             "reference-link": "https://floraverse.com/comic/too-itchy/floraverse-eastar-islands/malwire-reference-points/828-eastar-map/",
             "locations": [
               {
+                "name": "Wishbone Province",
+                "type": "region",
+                "reference-link": "https://floraverse.com/comic/floraverse-eastar-islands/malwire-reference-points/829-eastar-wishbone-province/",
+                "locations": [
+                  {
+                    "name": "Wishbone",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Deep Desert",
+                    "type": "desert"
+                  },
+                  {
+                    "name": "Starlit Temple Perimeter",
+                    "type": "ruins"
+                  },
+                  {
+                    "name": "Lostin",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Rachis Mountains",
+                    "type": "mountain"
+                  },
+                  {
+                    "name": "Mount Verdent",
+                    "type": "mountain",
+                    "locations": [
+                      {
+                        "name": "Knucklebone",
+                        "type": "village"
+                      },
+                      {
+                        "name": "Verdent Farms",
+                        "type": "grassland"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "Passage of Time",
+                    "type": "mountain"
+                  },
+                  {
+                    "name": "Lady Lethe River",
+                    "type": "river"
+                  },
+                  {
+                    "name": "Gamblan",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Oxbow",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Route Mine",
+                    "type": "cave"
+                  },
+                  {
+                    "name": "The Heap",
+                    "type": "ruins"
+                  }
+                ]
+              },
+              {
                 "name": "Hourglass Port",
                 "type": "bay"
               },
@@ -995,18 +1060,6 @@
                 "type": "plain"
               },
               {
-                "name": "Lady Lethe River",
-                "type": "river"
-              },
-              {
-                "name": "Passage of Time",
-                "type": "mountain"
-              },
-              {
-                "name": "Mount Verdent",
-                "type": "mountain"
-              },
-              {
                 "name": "Fortuna",
                 "type": "city"
               },
@@ -1021,18 +1074,6 @@
               {
                 "name": "Chance",
                 "type": "city"
-              },
-              {
-                "name": "Deep Desert",
-                "type": "desert"
-              },
-              {
-                "name": "Wishbone",
-                "type": "city"
-              },
-              {
-                "name": "Rachis Mountains",
-                "type": "mountain"
               },
               {
                 "name": "Mount Veil",
