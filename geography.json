@@ -1028,6 +1028,57 @@
                 ]
               },
               {
+                "name": "Ladybird Province",
+                "type": "region",
+                "reference-link": "https://floraverse.com/comic/floraverse-eastar-islands/malwire-reference-points/830-eastar-ladybird-province/",
+                "locations": [
+                  {
+                    "name": "Lake of Memories",
+                    "type": "lake"
+                  },
+                  {
+                    "name": "Clearing Forest",
+                    "type": "forest"
+                  },
+                  {
+                    "name": "Ladybird",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Taproot",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Sucker",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Mulch",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Sprout",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Wort",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Slog",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Elysian Field",
+                    "type": "plain"
+                  },
+                  {
+                    "name": "Lady Lethe River",
+                    "type": "river"
+                  }
+                ]
+              },
+              {
                 "name": "Hourglass Port",
                 "type": "bay"
               },
@@ -1042,22 +1093,6 @@
               {
                 "name": "Arcus",
                 "type": "city"
-              },
-              {
-                "name": "Lake of Memories",
-                "type": "lake"
-              },
-              {
-                "name": "Clearing Forest",
-                "type": "forest"
-              },
-              {
-                "name": "Ladybird",
-                "type": "city"
-              },
-              {
-                "name": "Elysian Field",
-                "type": "plain"
               },
               {
                 "name": "Fortuna",
