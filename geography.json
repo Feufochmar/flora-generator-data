@@ -1079,20 +1079,55 @@
                 ]
               },
               {
-                "name": "Hourglass Port",
-                "type": "bay"
-              },
-              {
-                "name": "Lake Auron",
-                "type": "lake"
-              },
-              {
-                "name": "Lake Earie",
-                "type": "lake"
-              },
-              {
-                "name": "Arcus",
-                "type": "city"
+                "name": "Arcus Province",
+                "type": "region",
+                "reference-link": "https://floraverse.com/comic/floraverse-eastar-islands/malwire-reference-points/831-eastar-arcus-province/",
+                "locations": [
+                  {
+                    "name": "Hourglass Port",
+                    "type": "bay"
+                  },
+                  {
+                    "name": "North Extant",
+                    "type": "island"
+                  },
+                  {
+                    "name": "Extant",
+                    "type": "island"
+                  },
+                  {
+                    "name": "South Extant",
+                    "type": "island"
+                  },
+                  {
+                    "name": "Lake Auron",
+                    "type": "lake"
+                  },
+                  {
+                    "name": "Lake Earie",
+                    "type": "lake"
+                  },
+                  {
+                    "name": "Arcus",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Time-Share",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Time-Sink",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Satellite",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Hour Mine",
+                    "type": "cave"
+                  }
+                ]
               },
               {
                 "name": "Fortuna",
