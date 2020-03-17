@@ -15,7 +15,7 @@
     "name": "asexual",
     "context": "Describe individuals of species reproducing by asexual reproduction.",
     "mother?": true,
-    "gender-distribution": { "masculine": 30, "feminine": 30, "neutral-person": 30, "neutral-thing": 1 }
+    "gender-distribution": { "masculine": 30, "feminine": 30, "neutral-person": 30, "neutral-thing": 10 }
   },
   {
     "name": "hermaphrodite",
