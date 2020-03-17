@@ -71,6 +71,7 @@ The root is an `object` containing the following fields:
   - `none` (`element`): an element value used for a lack of elemental affinity
   - `primary` (`list`: `element`): the list of primary elements
   - `secondary` (`list`: `combined-element`): the list of secondary elements
+  - `tertiary` (`list`: `combined-element`): the list of tertiary elements
 
 The `element` object has the following fields:
   - `name` (`string`): the name of the element
@@ -79,7 +80,7 @@ The `element` object has the following fields:
   - `related-adjectives` (`list`: `string`): a list of adjectives that can be used to convey the idea of the element
 
 The `combined-element` object has the following fields:
-  - `components` (`list`: `string`): a list of primary elements that compose a combined element; each string correspond to the name of a primary element
+  - `components` (`list`: `string`): a list of elements that compose a combined element; each string correspond to the name of an element.
   - `result` (`element`): the resulting element of the combination
 
 ## mottos.json

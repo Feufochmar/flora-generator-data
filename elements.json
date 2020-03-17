@@ -173,5 +173,79 @@
         "related-adjectives": []
       }
     }
+  ],
+  "tertiary": [
+    {
+      "components": ["Poison", "Air"],
+      "result": {
+        "name": "Miasma",
+        "affinity-description": "a Miasma affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Aura", "Poison"],
+      "result": {
+        "name": "Ichor",
+        "affinity-description": "an Ichor affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Spirit", "Poison"],
+      "result": {
+        "name": "Curse",
+        "affinity-description": "a Curse affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Fire", "Water", "Spirit"],
+      "result": {
+        "name": "Steam",
+        "affinity-description": "a Steam affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Spirit", "Water", "Spirit"],
+      "result": {
+        "name": "Paint",
+        "affinity-description": "a Paint affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Poison", "Earth"],
+      "result": {
+        "name": "Quicksilver",
+        "affinity-description": "a Quicksilver affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Ice", "Spirit"],
+      "result": {
+        "name": "Lock",
+        "affinity-description": "a Lock affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Poison", "Earth"],
+      "result": {
+        "name": "Mercury",
+        "affinity-description": "a Mercury affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    }
   ]
 }
