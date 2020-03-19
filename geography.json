@@ -26,6 +26,7 @@
     { "name": "plateau", "preposition-in": "on", "preposition-near": "near" },
     { "name": "sinkhole", "preposition-in": "in", "preposition-near": "near" },
     { "name": "oasis", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "desert", "preposition-in": "in", "preposition-near": "near" },
     { "name": "somewhere", "preposition-in": "", "preposition-near": "" }
   ],
   "places": {
