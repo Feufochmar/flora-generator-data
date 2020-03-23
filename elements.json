@@ -203,7 +203,7 @@
       }
     },
     {
-      "components": ["Spirit", "Aura"],
+      "components": ["Spirit", "Acid"],
       "result": {
         "name": "Steam",
         "affinity-description": "a Steam affinity",
