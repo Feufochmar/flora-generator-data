@@ -71,7 +71,8 @@ The root is an `object` containing the following fields:
   - `none` (`element`): an element value used for a lack of elemental affinity
   - `primary` (`list`: `element`): the list of primary elements
   - `secondary` (`list`: `combined-element`): the list of secondary elements
-  - `tertiary` (`list`: `combined-element`): the list of tertiary elements
+  - `tertiary` (`list`: `combined-element`): the list of tertiary elements usable by the generator. The composition may diverge from what is described in the comic.
+  - `tertiary-exact` (`list`: `combined-element`): the list of tertiary elements as described in the Floraverse comic, but not usable by the generator
 
 The `element` object has the following fields:
   - `name` (`string`): the name of the element
@@ -115,7 +116,8 @@ Contains the species.
 
 The root is an `object` containing the following fields:
   - `defaults` (`species`): the default values of the species structure. These values are used when not explicited in a species of the list of species.
-  - `species` (`list`: `species`): the list of species
+  - `species` (`list`: `species`): the list of species.
+  - `crossbreeds` (`list`: `crossbreed`): the list of crossbreed species. Only childs whose parents are of different species are described.
 
 The `species` object contains the following fields:
   - `name` (`string`): the name of the species
@@ -143,14 +145,9 @@ The `mimic-filter` object contains the following fields:
   - `species` (`species`): a filter on the species fields. The associated value may be the value to search or an object of the form `{"not": [...]}` to list the values to exclude.
   - `relationship` (`string`, optional): a filter indicating a relationship between the character of the mimic species and another character from which the species is copied.
 
-## crossbreed.csv
-A table indicating if species reproducing by sexual reproduction are compatible and the name of the crossbreed if there is one.
-
-The first line contains name of the mother species and the first column the name of the father species.
-For each cell:
-  - an emtpy cell indicate the species are not compatible
-  - a `+` indicate the species are compatible but there is no known name the crossbreed
-  - another `string` indicate the species are compatible and the string is the name of the crossbreed
+The `crossbreed` object contains the following fields:
+  - `parents` (`list`: `string`): a list of parent species that give birth to a crossbreed; each string correspond to the name of an species.
+  - `child` (`species`): the crossbreed species; only fields that should be forced instead of computed are needed. An empty object indicate crossbreed is possible.
 
 ## word-lists.json, natures.json
 Contains dictionaries of words classified by categories.

@@ -4,7 +4,7 @@
     "endemic-in": ["Floraverse"],
     "restricted-to-endemic-areas?": false,
     "affinity": {
-      "None": 1,
+      "Clear": 1,
       "Fire": 1, "Water": 1, "Earth": 1, "Air": 1, "Spirit": 1,
       "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
       "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -30,7 +30,7 @@
       "reference-link": "http://floraverse.com/wiki/species/flowercat",
       "endemic-in": ["Dewclaw Territories", "Moggy Territories"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 40, "Earth": 40, "Air": 40, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -45,12 +45,11 @@
       "reference-link": "http://floraverse.com/wiki/species/foxbat",
       "endemic-in": ["Owel"],
       "affinity": {
-        "None": 1,
-        "Fire": 1, "Water": 1, "Earth": 1, "Air": 1, "Spirit": 0,
-        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 0,
-        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 0,
-        "Crystal": 1, "Sand": 1, "Magnet": 0,
-        "Storm": 1, "Sound": 0, "PSI": 0
+        "Clear": 1,
+        "Fire": 1, "Water": 1, "Earth": 1, "Air": 1,
+        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1,
+        "Ice": 1, "Clay": 1, "Cloud": 1,
+        "Crystal": 1, "Sand": 1, "Storm": 1
       },
       "pet?": true,
       "wild?": true
@@ -60,12 +59,7 @@
       "reference-link": "http://floraverse.com/wiki/species/foxbat",
       "endemic-in": ["Owel"],
       "affinity": {
-        "None": 0,
-        "Fire": 0, "Water": 0, "Earth": 0, "Air": 0, "Spirit": 1,
-        "Plasma": 0, "Acid": 0, "Lava": 0, "Light": 0, "Aura": 1,
-        "Ice": 0, "Clay": 0, "Cloud": 0, "Poison": 1,
-        "Crystal": 0, "Sand": 0, "Magnet": 1,
-        "Storm": 0, "Sound": 1, "PSI": 1
+        "Spirit": 1, "Aura": 1, "Poison": 1, "Magnet": 1, "Sound": 1, "PSI": 1
       },
       "generable-as-character?": true,
       "citizen?": true
@@ -75,7 +69,7 @@
       "reference-link": "http://floraverse.com/wiki/species/cockatrice",
       "endemic-in": ["Owel"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 30, "Water": 30, "Earth": 30, "Air": 1, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 30, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 30,
@@ -90,7 +84,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/194-vanguard-species/",
       "endemic-in": ["Citrico Archipelago", "Mainland Citrico", "Twin Luxuries", "Dewclaw Territories", "Althar Province", "Miaoustok Territories", "Carrot Crook", "National Port of Owel Territories", "Treefall Territories", "Auroria Territories", "Kadath Territories", "Eastar", "Glissod", "Jewell", "Cenastre"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 50, "Earth": 1, "Air": 1, "Spirit": 1,
         "Plasma": 1, "Acid": 10, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 30, "Clay": 1, "Cloud": 10, "Poison": 30,
@@ -105,7 +99,7 @@
       "reference-link": "http://floraverse.com/wiki/species/painted_alligator",
       "endemic-in": ["Miaoustok Territories", "Althar Province", "National Port of Owel Territories", "Gnawth Territories"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 40, "Water": 1, "Earth": 40, "Air": 1, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 15, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -120,7 +114,7 @@
       "reference-link": "http://floraverse.com/wiki/species/rock_candies",
       "endemic-in": ["Candy Rock Territories", "Honeycomb Plateau", "Miaoustok Territories", "Beheaded City"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 1, "Earth": 40, "Air": 1, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 20, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 20, "Cloud": 1, "Poison": 1,
@@ -135,7 +129,7 @@
       "reference-link": "http://floraverse.com/wiki/species/hanged_man",
       "endemic-in": ["Auroria Territories", "Kadath Territories", "National Port of Owel Territories", "Candy Rock Territories", "Althar Province", "Beheaded City", "Miaoustok Territories"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 40, "Water": 1, "Earth": 1, "Air": 40, "Spirit": 15,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -150,7 +144,7 @@
       "reference-link": "http://floraverse.com/wiki/species/pygmy_pyzky",
       "endemic-in": ["Glissod", "N.E.W. Gnoll Nation", "Dewclaw Territories", "Citrico Archipelago", "Peril Territories", "Bluegrass"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 40, "Water": 40, "Earth": 40, "Air": 40, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -166,7 +160,7 @@
       "reference-link": "http://floraverse.com/wiki/species/manticore",
       "endemic-in": ["Dewclaw Territories", "Gnawth Territories"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 40, "Water": 40, "Earth": 40, "Air": 1, "Spirit": 1,
         "Plasma": 1, "Acid": 15, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 15, "Clay": 1, "Cloud": 1, "Poison": 15,
@@ -181,7 +175,7 @@
       "reference-link": "http://floraverse.com/wiki/species/aurorian_fox",
       "endemic-in": ["Auroria Territories", "Althar Province", "Mew York Territories", "Mainland Citrico", "Twin Luxuries", "National Port of Owel Territories", "Kadath Territories"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 30, "Earth": 1, "Air": 30, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 30, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -197,7 +191,7 @@
       "endemic-in": ["Nature's Folly"],
       "restricted-to-endemic-areas?": true,
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 1, "Earth": 1, "Air": 1, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 30,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -222,7 +216,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/193-satyr-species/",
       "endemic-in": ["Gnawth Territories", "Croon Fens Territories"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 40, "Earth": 40, "Air": 40, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 40, "Cloud": 40, "Poison": 1,
@@ -237,7 +231,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/193-satyr-species/",
       "endemic-in": ["Gnawth Territories", "Croon Fens Territories"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 40, "Earth": 40, "Air": 40, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 40, "Cloud": 40, "Poison": 1,
@@ -252,7 +246,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/195-sea-dragon-species/",
       "endemic-in": ["Citrico Archipelago", "Mainland Citrico", "Twin Luxuries", "Althar Province", "Carrot Crook", "National Port of Owel Territories", "Auroria Territories", "Kadath Territories", "Glissod"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 40, "Earth": 40, "Air": 1, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 15, "Clay": 15, "Cloud": 1, "Poison": 1,
@@ -267,7 +261,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/202-coralshell-turtle-species/",
       "endemic-in": ["Citrico Archipelago", "Mainland Citrico", "Twin Luxuries", "Althar Province", "National Port of Owel Territories", "Auroria Territories", "Kadath Territories"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 10, "Water": 50, "Earth": 1, "Air": 40, "Spirit": 1,
         "Plasma": 10, "Acid": 10, "Lava": 10, "Light": 10, "Aura": 10,
         "Ice": 40, "Clay": 25, "Cloud": 1, "Poison": 1,
@@ -282,7 +276,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/203-frilled-petal-dragon-species/",
       "endemic-in": ["Citrico Archipelago", "Dewclaw Territories", "Nature's Folly", "Heart Mountain", "Carrot Crook", "Dendain Territories"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 15, "Water": 15, "Earth": 15, "Air": 15, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 15, "Aura": 1,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -319,7 +313,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/204-cagroo-species/",
       "endemic-in": ["Owel", "Eastar"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 20, "Earth": 20, "Air": 1, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -335,7 +329,7 @@
         {
           "name": "Cagrugong",
           "affinity": {
-            "None": 1,
+            "Clear": 1,
             "Fire": 1, "Water": 40, "Earth": 1, "Air": 1, "Spirit": 1,
             "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
             "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -369,7 +363,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/202-coralshell-turtle-species/",
       "endemic-in": ["Treefall Territories"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 50, "Earth": 1, "Air": 1, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -403,7 +397,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/220-species-weed-wolves/",
       "endemic-in": ["Owel"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 1, "Earth": 30, "Air": 1, "Spirit": 0,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 0,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 0,
@@ -444,7 +438,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/221-species-fruit-frog/",
       "endemic-in": ["Citrico Archipelago", "N.E.W. Gnoll Nation"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 30, "Earth": 30, "Air": 1, "Spirit": 1,
         "Plasma": 1, "Acid": 30, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -474,7 +468,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/222-species-owel-treants/",
       "endemic-in": ["Owel"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 1, "Earth": 40, "Air": 1, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 40, "Cloud": 1, "Poison": 1,
@@ -489,7 +483,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/306-species-masked-owls/",
       "endemic-in": ["Owel"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 1, "Earth": 1, "Air": 1, "Spirit": 100,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 100,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 100,
@@ -514,7 +508,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/312-species-singing-rabbat/",
       "endemic-in": ["Owel", "Eastar"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 1, "Earth": 1, "Air": 60, "Spirit": 1,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 30, "Aura": 1,
         "Ice": 1, "Clay": 1, "Cloud": 30, "Poison": 1,
@@ -529,7 +523,7 @@
       "reference-link": "http://floraverse.com/comic/flora/page/318-species-moahu/",
       "endemic-in": ["Holiday Territories"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 10, "Water": 10, "Earth": 500, "Air": 10, "Spirit": 10,
         "Plasma": 1, "Acid": 1, "Lava": 100, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 100, "Cloud": 1, "Poison": 1,
@@ -548,7 +542,7 @@
       "reference-link": "http://floraverse.com/comic/references/329-species-scrapgoats/",
       "endemic-in": ["Gloam Territories", "Teslic Yard"],
       "affinity": {
-        "None": 100,
+        "Clear": 100,
         "Fire": 100, "Water": 100, "Earth": 100, "Air": 100, "Spirit": 1,
         "Plasma": 100, "Acid": 100, "Lava": 100, "Light": 100, "Aura": 100,
         "Ice": 100, "Clay": 100, "Cloud": 100, "Poison": 100,
@@ -563,7 +557,7 @@
       "reference-link": "http://floraverse.com/comic/references/334-species-revealeons/",
       "endemic-in": ["Owel"],
       "affinity": {
-        "None": 50,
+        "Clear": 50,
         "Fire": 50, "Water": 50, "Earth": 50, "Air": 50, "Spirit": 1,
         "Plasma": 50, "Acid": 50, "Lava": 50, "Light": 50, "Aura": 50,
         "Ice": 50, "Clay": 50, "Cloud": 50, "Poison": 50,
@@ -591,7 +585,7 @@
       "reference-link": "http://floraverse.com/comic/short-stories/376-monsters-from-monsters/",
       "endemic-in": ["Glissod"],
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 1, "Earth": 1, "Air": 1, "Spirit": 40,
         "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 1,
         "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 1,
@@ -632,6 +626,21 @@
     {
       "name": "Luneko",
       "reference-link": "https://floraverse.com/comic/seeds/the-show-must-go-on/806-species-lunekos/",
+      "generable-as-character?": true,
+      "citizen?": true
+    },
+    {
+      "name": "Cleardeer",
+      "reference-link": "https://floraverse.com/comic/floraverse-eastar-islands/malwire-reference-points/833-species-cleardeer/",
+      "endemic-in": ["Eastar"],
+      "affinity": {
+        "Clear": 60,
+        "Fire": 3, "Water": 3, "Earth": 3, "Air": 3, "Spirit": 3,
+        "Plasma": 3, "Acid": 3, "Lava": 3, "Light": 3, "Aura": 3,
+        "Ice": 3, "Clay": 3, "Cloud": 3, "Poison": 3,
+        "Crystal": 3, "Sand": 3, "Magnet": 3,
+        "Storm": 3, "Sound": 3, "PSI": 3
+      },
       "generable-as-character?": true,
       "citizen?": true
     },
@@ -682,7 +691,7 @@
     {
       "name": "Jackal",
       "affinity": {
-        "None": 46,
+        "Clear": 46,
         "Fire": 46, "Water": 46, "Earth": 46, "Air": 46, "Spirit": 56,
         "Plasma": 46, "Acid": 46, "Lava": 46, "Light": 46, "Aura": 46,
         "Ice": 46, "Clay": 46, "Cloud": 46, "Poison": 46,
@@ -693,6 +702,12 @@
     },
     {
       "name": "Rakshasa"
+    },
+    {
+      "name": "Farewhett"
+    },
+    {
+      "name": "Kobold"
     },
     {
       "name": "Pommeranian",
@@ -1435,7 +1450,7 @@
       "endemic-in": ["Deep Mountain"],
       "restricted-to-endemic-areas?": true,
       "affinity": {
-        "None": 1,
+        "Clear": 1,
         "Fire": 1, "Water": 1, "Earth": 50, "Air": 80, "Spirit": 1,
         "Plasma": 1, "Acid": 35, "Lava": 1, "Light": 50, "Aura": 1,
         "Ice": 1, "Clay": 40, "Cloud": 1, "Poison": 35,
@@ -1690,6 +1705,608 @@
       "endemic-in": ["Owel"],
       "pet?": true,
       "wild?": true
+    }
+  ],
+  "crossbreeds": [
+    {
+      "parents": ["Flowercat", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Flowercat", "Spiritual Foxbat"],
+      "child": {}
+    },
+    {
+      "parents": ["Flowercat", "Vanguard"],
+      "child": {}
+    },
+    {
+      "parents": ["Flowercat", "Rock Candies"],
+      "child": {}
+    },
+    {
+      "parents": ["Flowercat", "Manticore"],
+      "child": {}
+    },
+    {
+      "parents": ["Flowercat", "Aurorian Fox"],
+      "child": {}
+    },
+    {
+      "parents": ["Flowercat", "Satyr"],
+      "child": {}
+    },
+    {
+      "parents": ["Flowercat", "Turf Tiger"],
+      "child": {
+        "name": "Thistle Tiger"
+      }
+    },
+    {
+      "parents": ["Flowercat", "Pygmy Tiger"],
+      "child": {
+        "name": "Flower Tiger"
+      }
+    },
+    {
+      "parents": ["Flowercat", "Commons Fox"],
+      "child": {}
+    },
+    {
+      "parents": ["Flowercat", "Mouse"],
+      "child": {}
+    },
+    {
+      "parents": ["Spiritual Foxbat", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Spiritual Foxbat", "Aurorian Fox"],
+      "child": {}
+    },
+    {
+      "parents": ["Spiritual Foxbat", "Commons Fox"],
+      "child": {}
+    },
+    {
+      "parents": ["Spiritual Foxbat", "Borealan Fox"],
+      "child": {}
+    },
+    {
+      "parents": ["Cockatrice", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Cockatrice", "Sea Dragon"],
+      "child": {
+        "name": "Seavern"
+      }
+    },
+    {
+      "parents": ["Cockatrice", "Coralshell Turtle"],
+      "child": {}
+    },
+    {
+      "parents": ["Cockatrice", "Frilled Petal Dragon"],
+      "child": {
+        "name": "Petaltrice"
+      }
+    },
+    {
+      "parents": ["Vanguard", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Vanguard", "Sea Dragon"],
+      "child": {}
+    },
+    {
+      "parents": ["Vanguard", "Necropossum"],
+      "child": {
+        "name": "Bonefish"
+      }
+    },
+    {
+      "parents": ["Vanguard", "Turf Tiger"],
+      "child": {
+        "name": "Surf Tiger"
+      }
+    },
+    {
+      "parents": ["Vanguard", "Pygmy Tiger"],
+      "child": {}
+    },
+    {
+      "parents": ["Vanguard", "Bearring"],
+      "child": {
+        "name": "Sea Bearring"
+      }
+    },
+    {
+      "parents": ["Painted Alligator", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Rock Candies", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Rock Candies", "Satyr"],
+      "child": {
+        "name": "Flower Candies"
+      }
+    },
+    {
+      "parents": ["Rock Candies", "Scrapgoat"],
+      "child": {}
+    },
+    {
+      "parents": ["Rock Candies", "Turf Tiger"],
+      "child": {
+        "name": "Glam Candies"
+      }
+    },
+    {
+      "parents": ["Rock Candies", "Pygmy Tiger"],
+      "child": {}
+    },
+    {
+      "parents": ["Hanged Man", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Pygmy Pyzky", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Manticore", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Manticore", "Singing Rabbat"],
+      "child": {
+        "name": "Chirping Rabbat"
+      }
+    },
+    {
+      "parents": ["Manticore", "Necropossum"],
+      "child": {
+        "name": "Deathwalker"
+      }
+    },
+    {
+      "parents": ["Manticore", "Bastian"],
+      "child": {}
+    },
+    {
+      "parents": ["Manticore", "Cleardeer"],
+      "child": {
+        "name": "Mantilope"
+      }
+    },
+    {
+      "parents": ["Aurorian Fox", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Aurorian Fox", "Satyr"],
+      "child": {
+        "name": "Aurorian Satyrfox"
+      }
+    },
+    {
+      "parents": ["Aurorian Fox", "Turf Tiger"],
+      "child": {}
+    },
+    {
+      "parents": ["Aurorian Fox", "Pygmy Tiger"],
+      "child": {
+        "name": "Swirl Fox"
+      }
+    },
+    {
+      "parents": ["Aurorian Fox", "Commons Fox"],
+      "child": {}
+    },
+    {
+      "parents": ["Aurorian Fox", "Borealan Fox"],
+      "child": {}
+    },
+    {
+      "parents": ["Beholding Siren", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Satyr", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Satyr", "Goatixy"],
+      "child": {
+        "name": "Goatixy"
+      }
+    },
+    {
+      "parents": ["Satyr", "Singing Rabbat"],
+      "child": {
+        "name": "Satyrbun"
+      }
+    },
+    {
+      "parents": ["Satyr", "Scrapgoat"],
+      "child": {
+        "name": "Diogoat"
+      }
+    },
+    {
+      "parents": ["Satyr", "Commons Fox"],
+      "child": {
+        "name": "Commons Satyrfox"
+      }
+    },
+    {
+      "parents": ["Satyr", "Borealan Fox"],
+      "child": {
+        "name": "Borealan Satyrfox"
+      }
+    },
+    {
+      "parents": ["Satyr", "Uniqorn"],
+      "child": {
+        "name": "Satyrqorn"
+      }
+    },
+    {
+      "parents": ["Goatixy", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Sea Dragon", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Sea Dragon", "Coralshell Turtle"],
+      "child": {}
+    },
+    {
+      "parents": ["Sea Dragon", "Scrapgoat"],
+      "child": {}
+    },
+    {
+      "parents": ["Sea Dragon", "Gorgon"],
+      "child": {
+        "name": "Sea Dragorgon"
+      }
+    },
+    {
+      "parents": ["Sea Dragon", "Kelpie"],
+      "child": {
+        "name": "Trojan Dragon"
+      }
+    },
+    {
+      "parents": ["Coralshell Turtle", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Coralshell Turtle", "Frilled Petal Dragon"],
+      "child": {}
+    },
+    {
+      "parents": ["Frilled Petal Dragon", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Frilled Petal Dragon", "Gorgon"],
+      "child": {
+        "name": "Flower Dragorgon"
+      }
+    },
+    {
+      "parents": ["Frilled Petal Dragon", "Salamango"],
+      "child": {}
+    },
+    {
+      "parents": ["Frilled Petal Dragon", "Gum Shooter"],
+      "child": {}
+    },
+    {
+      "parents": ["Weed Wolf", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Weed Wolf", "Pommeranian"],
+      "child": {}
+    },
+    {
+      "parents": ["Weed Wolf", "Broccolamb"],
+      "child": {}
+    },
+    {
+      "parents": ["Weed Wolf", "Catermelon"],
+      "child": {}
+    },
+    {
+      "parents": ["Weed Wolf", "Pumpkit"],
+      "child": {}
+    },
+    {
+      "parents": ["Weed Wolf", "Lettuce Lion"],
+      "child": {}
+    },
+    {
+      "parents": ["Weed Wolf", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Owel Treant", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Owel Treant", "Arachoon"],
+      "child": {}
+    },
+    {
+      "parents": ["Singing Rabbat", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Singing Rabbat", "Necropossum"],
+      "child": {
+        "name": "Vampire Rabbat"
+      }
+    },
+    {
+      "parents": ["Singing Rabbat", "Bearring"],
+      "child": {
+        "name": "Singing Bearrub"
+      }
+    },
+    {
+      "parents": ["Singing Rabbat", "Rugaru"],
+      "child": {
+        "name": "Rugarabbat"
+      }
+    },
+    {
+      "parents": ["Singing Rabbat", "Cleardeer"],
+      "child": {
+        "name": "Jackalope"
+      }
+    },
+    {
+      "parents": ["Scrapgoat", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Scrapgoat", "Necropossum"],
+      "child": {
+        "name": "Junkrat"
+      }
+    },
+    {
+      "parents": ["Scrapgoat", "Turf Tiger"],
+      "child": {
+        "name": "Stripe Goat"
+      }
+    },
+    {
+      "parents": ["Scrapgoat", "Pygmy Tiger"],
+      "child": {}
+    },
+    {
+      "parents": ["Necropossum", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Necropossum", "Turf Tiger"],
+      "child": {
+        "name": "Tomb Tiger"
+      }
+    },
+    {
+      "parents": ["Necropossum", "Pygmy Tiger"],
+      "child": {}
+    },
+    {
+      "parents": ["Necropossum", "Bearring"],
+      "child": {
+        "name": "Grisly Bearring"
+      }
+    },
+    {
+      "parents": ["Necropossum", "Clover Lamb"],
+      "child": {
+        "name": "Bansheep"
+      }
+    },
+    {
+      "parents": ["Necropossum", "Cat"],
+      "child": {
+        "name": "Nekopossum"
+      }
+    },
+    {
+      "parents": ["Necropossum", "Jackal"],
+      "child": {
+        "name": "Shackal"
+      }
+    },
+    {
+      "parents": ["Necropossum", "Cleardeer"],
+      "child": {
+        "name": "Karrion"
+      }
+    },
+    {
+      "parents": ["Turf Tiger", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Turf Tiger", "Pygmy Tiger"],
+      "child": {}
+    },
+    {
+      "parents": ["Turf Tiger", "Bearring"],
+      "child": {
+        "name": "Twinkle Tiger"
+      }
+    },
+    {
+      "parents": ["Turf Tiger", "Bastian"],
+      "child": {}
+    },
+    {
+      "parents": ["Turf Tiger", "Clover Lamb"],
+      "child": {
+        "name": "Truce Tiger"
+      }
+    },
+    {
+      "parents": ["Pygmy Tiger", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Pygmy Tiger", "Bearring"],
+      "child": {}
+    },
+    {
+      "parents": ["Pygmy Tiger", "Bastian"],
+      "child": {
+        "name": "Pygmy Bastian"
+      }
+    },
+    {
+      "parents": ["Pygmy Tiger", "Clover Lamb"],
+      "child": {}
+    },
+    {
+      "parents": ["Pygmy Tiger", "Rakshasa"],
+      "child": {
+        "name": "Atrocitiger"
+      }
+    },
+    {
+      "parents": ["Bearring", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Luneko", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Cleardeer", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Cleardeer", "Farewhett"],
+      "child": {
+        "name": "Clearwotter"
+      }
+    },
+    {
+      "parents": ["Cleardeer", "Kobold"],
+      "child": {
+        "name": "Fairin"
+      }
+    },
+    {
+      "parents": ["Commons Fox", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Mouse", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Bastian", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Borealan Fox", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Uniqorn", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Uniqorn", "Kobold"],
+      "child": {
+        "name": "Kiriqorn"
+      }
+    },
+    {
+      "parents": ["Gorgon", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Kelpie", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Arachoon", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Rugaru", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Clover Lamb", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Cat", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Jackal", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Rakshasa", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Farewhett", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Kobold", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Cagroo", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Salamango", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Pommeranian", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Broccolamb", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Catermelon", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Pumpkit", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Lettuce Lion", "Imp"],
+      "child": {}
+    },
+    {
+      "parents": ["Gum Shooter", "Imp"],
+      "child": {}
     }
   ]
 }

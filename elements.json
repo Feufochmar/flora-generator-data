@@ -1,7 +1,7 @@
 {
   "none": {
-    "name": "None",
-    "affinity-description": "no affinity",
+    "name": "Clear",
+    "affinity-description": "a Clear affinity",
     "related-nouns": [],
     "related-adjectives": []
   },
@@ -185,6 +185,24 @@
       }
     },
     {
+      "components": ["Earth", "Plasma"],
+      "result": {
+        "name": "Blast",
+        "affinity-description": "a Blast affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Earth", "Light"],
+      "result": {
+        "name": "Growth",
+        "affinity-description": "a Growth affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
       "components": ["Earth", "Poison"],
       "result": {
         "name": "Quicksilver",
@@ -230,10 +248,165 @@
       }
     },
     {
+      "components": ["Spirit", "Glass"],
+      "result": {
+        "name": "Mirror",
+        "affinity-description": "a Mirror affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
       "components": ["Aura", "Poison"],
       "result": {
         "name": "Ichor",
         "affinity-description": "an Ichor affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Aura", "Sound"],
+      "result": {
+        "name": "Warp",
+        "affinity-description": "a Warp affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Poison", "Storm"],
+      "result": {
+        "name": "Plague",
+        "affinity-description": "a Plague affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Crystal", "Sand"],
+      "result": {
+        "name": "Glass",
+        "affinity-description": "a Glass affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    }
+  ],
+  "tertiary-exact": [
+    {
+      "components": ["Poison", "Air"],
+      "result": {
+        "name": "Miasma",
+        "affinity-description": "a Miasma affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Aura", "Poison"],
+      "result": {
+        "name": "Ichor",
+        "affinity-description": "an Ichor affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Spirit", "Poison"],
+      "result": {
+        "name": "Curse",
+        "affinity-description": "a Curse affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Fire", "Water", "Spirit"],
+      "result": {
+        "name": "Steam",
+        "affinity-description": "a Steam affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Spirit", "Water", "Spirit"],
+      "result": {
+        "name": "Paint",
+        "affinity-description": "a Paint affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Poison", "Earth"],
+      "result": {
+        "name": "Quicksilver",
+        "affinity-description": "a Quicksilver affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Ice", "Spirit"],
+      "result": {
+        "name": "Lock",
+        "affinity-description": "a Lock affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Poison", "Earth"],
+      "result": {
+        "name": "Mercury",
+        "affinity-description": "a Mercury affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Poison", "Storm"],
+      "result": {
+        "name": "Plague",
+        "affinity-description": "a Plague affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Sound", "Aura", "Spirit"],
+      "result": {
+        "name": "Warp",
+        "affinity-description": "a Warp affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Plasma", "Earth"],
+      "result": {
+        "name": "Blast",
+        "affinity-description": "a Blast affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Light", "Earth"],
+      "result": {
+        "name": "Growth",
+        "affinity-description": "a Growth affinity",
+        "related-nouns": [],
+        "related-adjectives": []
+      }
+    },
+    {
+      "components": ["Crystal", "Sand", "Spirit"],
+      "result": {
+        "name": "Mirror",
+        "affinity-description": "a Mirror affinity",
         "related-nouns": [],
         "related-adjectives": []
       }
