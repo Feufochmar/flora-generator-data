@@ -1827,6 +1827,12 @@
       "child": {}
     },
     {
+      "parents": ["Painted Alligator", "Scrapgoat"],
+      "child": {
+        "name": "Scraptile"
+      }
+    },
+    {
       "parents": ["Rock Candies", "Imp"],
       "child": {}
     },
