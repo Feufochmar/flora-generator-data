@@ -167,7 +167,7 @@ A sentence often need a `gender` instance as input to generation (as defined in 
 
 A `token` is a `object` containing a single field among those:
   - `gender` (`string`): the token should be replaced by the indicated field of a `gender` instance.
-  - `verb` (`string` or `token`): the token should be replaced by a conjugated form of the value using the `plural?` field of a `gender` instance.
+  - `verb` (`string`): the token should be replaced by a conjugated form of the value using the `plural?` field of a `gender` instance.
   - `undefined-article` (`string` or `token`): the token should be replaced by the value prefixed by the undefined article and a space.
   - `plural` (`string` or `token`): the token should be replaced by the plural form of the value.
   - `word` (`string`): the token should be replaced by one of the word of the indicated category (from `word-lists.json`).
