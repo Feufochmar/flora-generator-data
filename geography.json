@@ -27,6 +27,7 @@
     { "name": "sinkhole", "preposition-in": "in", "preposition-near": "near" },
     { "name": "oasis", "preposition-in": "in", "preposition-near": "near" },
     { "name": "desert", "preposition-in": "in", "preposition-near": "near" },
+    { "name": "pass", "preposition-in": "along", "preposition-near": "near" },
     { "name": "somewhere", "preposition-in": "", "preposition-near": "" }
   ],
   "places": {
@@ -1131,8 +1132,67 @@
                 ]
               },
               {
-                "name": "Fortuna",
-                "type": "city"
+                "name": "Fortuna Province",
+                "type": "region",
+                "reference-link": "https://floraverse.com/comic/floraverse-eastar-islands/malwire-reference-points/837-eastar-fortuna-province/",
+                "locations": [
+                  {
+                    "name": "Rachis Mountains",
+                    "type": "mountain"
+                  },
+                  {
+                    "name": "Fortuna Pass",
+                    "type": "pass"
+                  },
+                  {
+                    "name": "Fortuna",
+                    "type": "city"
+                  },
+                  {
+                    "name": "Beacon Station",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Station-I",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Halo Station",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Station Null",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Vow Station",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Station-W",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Combinatoric Cluster Stations A, N, ONE, S, E",
+                    "type": "town"
+                  },
+                  {
+                    "name": "Station-X",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Synchro Station",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Station-5",
+                    "type": "village"
+                  },
+                  {
+                    "name": "Pending Station",
+                    "type": "village"
+                  }
+                ]
               },
               {
                 "name": "Pit Plains",
