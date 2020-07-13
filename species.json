@@ -1709,10 +1709,6 @@
   ],
   "crossbreeds": [
     {
-      "parents": ["Flowercat", "Imp"],
-      "child": {}
-    },
-    {
       "parents": ["Flowercat", "Spiritual Foxbat"],
       "child": {}
     },
@@ -1757,10 +1753,6 @@
       "child": {}
     },
     {
-      "parents": ["Spiritual Foxbat", "Imp"],
-      "child": {}
-    },
-    {
       "parents": ["Spiritual Foxbat", "Aurorian Fox"],
       "child": {}
     },
@@ -1770,10 +1762,6 @@
     },
     {
       "parents": ["Spiritual Foxbat", "Borealan Fox"],
-      "child": {}
-    },
-    {
-      "parents": ["Cockatrice", "Imp"],
       "child": {}
     },
     {
@@ -1791,10 +1779,6 @@
       "child": {
         "name": "Petaltrice"
       }
-    },
-    {
-      "parents": ["Vanguard", "Imp"],
-      "child": {}
     },
     {
       "parents": ["Vanguard", "Sea Dragon"],
@@ -1823,18 +1807,10 @@
       }
     },
     {
-      "parents": ["Painted Alligator", "Imp"],
-      "child": {}
-    },
-    {
       "parents": ["Painted Alligator", "Scrapgoat"],
       "child": {
         "name": "Scraptile"
       }
-    },
-    {
-      "parents": ["Rock Candies", "Imp"],
-      "child": {}
     },
     {
       "parents": ["Rock Candies", "Satyr"],
@@ -1854,18 +1830,6 @@
     },
     {
       "parents": ["Rock Candies", "Pygmy Tiger"],
-      "child": {}
-    },
-    {
-      "parents": ["Hanged Man", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Pygmy Pyzky", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Manticore", "Imp"],
       "child": {}
     },
     {
@@ -1891,10 +1855,6 @@
       }
     },
     {
-      "parents": ["Aurorian Fox", "Imp"],
-      "child": {}
-    },
-    {
       "parents": ["Aurorian Fox", "Satyr"],
       "child": {
         "name": "Aurorian Satyrfox"
@@ -1916,14 +1876,6 @@
     },
     {
       "parents": ["Aurorian Fox", "Borealan Fox"],
-      "child": {}
-    },
-    {
-      "parents": ["Beholding Siren", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Satyr", "Imp"],
       "child": {}
     },
     {
@@ -1963,14 +1915,6 @@
       }
     },
     {
-      "parents": ["Goatixy", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Sea Dragon", "Imp"],
-      "child": {}
-    },
-    {
       "parents": ["Sea Dragon", "Coralshell Turtle"],
       "child": {}
     },
@@ -1991,15 +1935,7 @@
       }
     },
     {
-      "parents": ["Coralshell Turtle", "Imp"],
-      "child": {}
-    },
-    {
       "parents": ["Coralshell Turtle", "Frilled Petal Dragon"],
-      "child": {}
-    },
-    {
-      "parents": ["Frilled Petal Dragon", "Imp"],
       "child": {}
     },
     {
@@ -2014,10 +1950,6 @@
     },
     {
       "parents": ["Frilled Petal Dragon", "Gum Shooter"],
-      "child": {}
-    },
-    {
-      "parents": ["Weed Wolf", "Imp"],
       "child": {}
     },
     {
@@ -2041,19 +1973,7 @@
       "child": {}
     },
     {
-      "parents": ["Weed Wolf", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Owel Treant", "Imp"],
-      "child": {}
-    },
-    {
       "parents": ["Owel Treant", "Arachoon"],
-      "child": {}
-    },
-    {
-      "parents": ["Singing Rabbat", "Imp"],
       "child": {}
     },
     {
@@ -2081,10 +2001,6 @@
       }
     },
     {
-      "parents": ["Scrapgoat", "Imp"],
-      "child": {}
-    },
-    {
       "parents": ["Scrapgoat", "Necropossum"],
       "child": {
         "name": "Junkrat"
@@ -2098,10 +2014,6 @@
     },
     {
       "parents": ["Scrapgoat", "Pygmy Tiger"],
-      "child": {}
-    },
-    {
-      "parents": ["Necropossum", "Imp"],
       "child": {}
     },
     {
@@ -2145,10 +2057,6 @@
       }
     },
     {
-      "parents": ["Turf Tiger", "Imp"],
-      "child": {}
-    },
-    {
       "parents": ["Turf Tiger", "Pygmy Tiger"],
       "child": {}
     },
@@ -2167,10 +2075,6 @@
       "child": {
         "name": "Truce Tiger"
       }
-    },
-    {
-      "parents": ["Pygmy Tiger", "Imp"],
-      "child": {}
     },
     {
       "parents": ["Pygmy Tiger", "Bearring"],
@@ -2193,18 +2097,6 @@
       }
     },
     {
-      "parents": ["Bearring", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Luneko", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Cleardeer", "Imp"],
-      "child": {}
-    },
-    {
       "parents": ["Cleardeer", "Farewhett"],
       "child": {
         "name": "Clearwotter"
@@ -2217,102 +2109,10 @@
       }
     },
     {
-      "parents": ["Commons Fox", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Mouse", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Bastian", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Borealan Fox", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Uniqorn", "Imp"],
-      "child": {}
-    },
-    {
       "parents": ["Uniqorn", "Kobold"],
       "child": {
         "name": "Kiriqorn"
       }
-    },
-    {
-      "parents": ["Gorgon", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Kelpie", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Arachoon", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Rugaru", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Clover Lamb", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Cat", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Jackal", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Rakshasa", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Farewhett", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Kobold", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Cagroo", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Salamango", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Pommeranian", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Broccolamb", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Catermelon", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Pumpkit", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Lettuce Lion", "Imp"],
-      "child": {}
-    },
-    {
-      "parents": ["Gum Shooter", "Imp"],
-      "child": {}
     }
   ]
 }
