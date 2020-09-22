@@ -1002,6 +1002,19 @@
     ]
   },
   {
+    "name": "Packed Rat",
+    "description": "Two or more persons with this ability can physically merge into a single entity.",
+    "author": "http://floraverse.com",
+    "conditions": [
+      {
+        "type": "species",
+        "species": "Labor Rat",
+        "gene-threshold": 20,
+        "automatic?": true
+      }
+    ]
+  },
+  {
     "name": "Dispelling Touch",
     "description": "A person with this ability can remove magical effects affecting other individuals or items by touching them with a specific body part (ex: hand, tail, horn, ...). The ability works by transferring the effects from the target to the user. The transferred effects affect the user to a lesser extent than the target while they are dispersing them with their body. The duration of the dispersion varies depending on the dispelled effect and a user need to rest after several minutes of Dispelling Touch use. If the target is affected by several magical effects, the most powerful effects are transfered and dispersed first. A user can only disperse an effect at a time cannot choose the dispersed effect. Dispersing the same effect, or several effect with the same affinity, several times in a row may lead the user to temporary or definitively gain the affinity of the dispersed effect, disabling their Dispelling Touch temporary or definitively.",
     "author": "Feufochmar",
