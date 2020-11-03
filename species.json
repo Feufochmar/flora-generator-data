@@ -393,47 +393,6 @@
       ]
     },
     {
-      "name": "Weed Wolf",
-      "reference-link": "http://floraverse.com/comic/flora/page/220-species-weed-wolves/",
-      "endemic-in": ["Owel"],
-      "affinity": {
-        "Clear": 1,
-        "Fire": 1, "Water": 1, "Earth": 30, "Air": 1, "Spirit": 0,
-        "Plasma": 1, "Acid": 1, "Lava": 1, "Light": 1, "Aura": 0,
-        "Ice": 1, "Clay": 1, "Cloud": 1, "Poison": 0,
-        "Crystal": 1, "Sand": 1, "Magnet": 0,
-        "Storm": 1, "Sound": 0, "PSI": 0
-      },
-      "wild?": true,
-      "pet?": true,
-      "varieties": [
-        {
-          "name": "Maple Dog",
-          "pet?": false
-        },
-        {
-          "name": "Pin Bull",
-          "pet?": false
-        },
-        {
-          "name": "Palmeranian",
-          "wild?": false
-        },
-        {
-          "name": "Pine Hound",
-          "wild?": false
-        },
-        {
-          "name": "Shruppy",
-          "wild?": false
-        },
-        {
-          "name": "Weeping Woodle",
-          "wild?": false
-        }
-      ]
-    },
-    {
       "name": "Flower Frog",
       "reference-link": "http://floraverse.com/comic/flora/page/221-species-fruit-frog/",
       "endemic-in": ["Citrico Archipelago", "N.E.W. Gnoll Nation"],
